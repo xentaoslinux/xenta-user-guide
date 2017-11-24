@@ -1,0 +1,28 @@
+Source: xenta-user-guide
+Section: doc
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/xentaos/xenta-user-guide
+Vcs-Browser: https://github.com/xentaos/xenta-user-guide.git
+
+Package: xenta-user-guide-cinnamon
+Architecture: all
+Depends: yelp, xenta-artwork
+Provides: xenta-user-guide
+Conflicts: xenta-user-guide-xfce
+Description: Paket Panduan Xenta OS Edisi Cinnamon
+ Sangat Mudah Berisi Panduan dan Bantuan Untuk
+ Xenta OS Edisi Cinnamon
+
+Package: xenta-user-guide-xfce
+Architecture: all
+Depends: yelp, xenta-artwork
+Provides: xenta-user-guide
+Conflicts: xenta-user-guide-cinnamon
+Description: Paket Panduan Xenta OS Edisi Cinnamon
+ Sangat Mudah Berisi Panduan dan Bantuan Untuk
+ Xenta OS Edisi Cinnamon
+
+

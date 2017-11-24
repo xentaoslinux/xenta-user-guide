@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY PRODUCT "Xenta OS">
+<!ENTITY MINTVERSION "1.3 LTS">
+<!ENTITY BOOKID "User_Guide">
+<!ENTITY YEAR "2017">
+<!ENTITY HOLDER "Xenta OS">
+<!ENTITY EDITION "Cinnamon">
+]>
+<book id="index">
+	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="user-guide-common-introduction.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="user-guide-common-installation.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="user-guide-cinnamon-desktop.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="user-guide-common-tipstricks.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <xi:include href="user-guide-common-conclusion.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <!-- <xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<index /> -->
+</book>
+
