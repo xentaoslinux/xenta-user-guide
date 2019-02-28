@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY PRODUCT "Xenta OS">
+<!ENTITY MINTVERSION "2.0 LTS">
+<!ENTITY BOOKID "User_Guide">
+<!ENTITY YEAR "2019">
+<!ENTITY HOLDER "Xenta OS">
+<!ENTITY EDITION "Xfce">
+]>
+<bookinfo id="book-Documentation-User_Guide-User_Guide">
+	<title>&PRODUCT; &MINTVERSION;</title>
+	 <subtitle>User Guide</subtitle>
+	 <productname>&PRODUCT;</productname>
+	 <productnumber>&MINTVERSION;</productnumber>
+	 <abstract>
+		<para>
+			An introduction to Xenta OS. The object of this guide is to get you started and make it easy for you to use Xenta OS and to feel comfortable with it.
+		</para>
+
+	</abstract>
+	 <corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="images/xentalogo.png" format="PNG" width="300" />
+			</imageobject>
+
+		</inlinemediaobject>
+
+	</corpauthor>
+	 <xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	 <!-- <xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" /> -->
+</bookinfo>
+

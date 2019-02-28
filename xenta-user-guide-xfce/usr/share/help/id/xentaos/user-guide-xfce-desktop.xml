@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY PRODUCT "Xenta OS">
+<!ENTITY MINTVERSION "2.0 LTS">
+<!ENTITY BOOKID "User_Guide">
+<!ENTITY YEAR "2019">
+<!ENTITY HOLDER "Xenta OS">
+<!ENTITY EDITION "Xfce">
+]>
+<chapter id="xfce-desktop">
+	<title>Pengenalan Desktop</title>
+	 <para>
+		<wordasword>Desktop</wordasword> merupakan komponen dari sistem operasi yang bertanggung jawab atas elemen-elemen yang muncul pada desktop: The <wordasword>Panel</wordasword>, the <wordasword>Wallpaper</wordasword>, The <wordasword>Control Center</wordasword>, the menus... dan lain-lain.
+	</para>
+	 <para>
+		Xenta OS Edisi Xfce menggunakan desktop Xfce yang intuitif dan powerful.
+	</para>
+	 <sect1> <title>Menu Xfce</title>
+	 <para>
+		Di Xfce, hampir semuanya dapat diakses melalui taskbar 'Menu'. Untuk membukanya, silahkan klik pada bagian <guimenu>Menu</guimenu> di pojok kiri bawah pada layar komputer Anda, atau silahkan tekan <keycombo><keycap>Ctrl</keycap><keycap>Super_L</keycap></keycombo> (Super_L merupakan tombol Windows kiri pada keyboard Anda).
+	</para>
+	 <figure id="xfce-desktop-menu-figure">
+		<title>Menu Xfce</title>
+		 <screenshot> <mediaobject>
+			<imageobject>
+				<imagedata fileref="images/desktops/xfce/menu.png" format="PNG" width="100%" />
+			</imageobject>
+
+		</mediaobject>
+		 </screenshot>
+	</figure>
+	 <para>
+		Menu digunakan untuk menjalankan aplikasi, untuk mengakses pengaturan sistem, dan untuk menemukan folder atau aplikasi yang biasa digunakan dan membuka folder/file terbaru.
+	</para>
+	 </sect1> <sect1> <title>Places</title>
+	 <para>
+		Di Xenta OS, semua data personal Anda disimpan dalam direktori <wordasword>Home</wordasword>.
+	</para>
+	 <para>
+		Seperti halnya file Anda, direktori ini juga berisi sub-direktori yang sudah ditentukan sebelumnya seperti <wordasword>Dokumen</wordasword>, <wordasword>Musik</wordasword>, <wordasword>Video</wordasword>...dan lainnya yang dapat Anda gunakan untuk mengatur file Anda dengan lebih baik.
+	</para>
+	 <para>
+		Tempat penting lainnya adalah folder <wordasword>Desktop</wordasword> (berisi file yang terlihat di desktop Anda), sistem file (yang berisi semua file sistem dan direktori), perangkat yang dapat dilepas yang terhubung ke komputer, jaringan dan bookmark (Anda dapat mem-bookmark direktori mana saja untuk mendapatkan akses cepat ke sana).
+	</para>
+	 <para>
+		Untuk mengakses salah satu tempat ini dengan cepat, silahkan lakukan cara berikut ini:
+	</para>
+	 <itemizedlist>
+		<listitem>
+			<para>
+				Klik pada <guimenu>Menu</guimenu> dan pilih <guisubmenu>Places</guisubmenu>
+			</para>
+		</listitem>
+		 <listitem>
+			<para>
+				Jalankan <wordasword>Thunar</wordasword>, yaitu folder manajer Xfce, dengan cara klik pada <guimenu>Menu</guimenu> dan pilih <guimenuitem>Folder</guimenuitem>. Lalu, di dalam Thunar, Anda dapat mengakses tempat-tempat umum dengan mengkliknya pada sidebar, di sebelah kiri jendela.
+			</para>
+		</listitem>
+
+	</itemizedlist>
+	 <figure id="xfce-desktop-thunar-figure">
+		<title>Thunar, folder manajer, daftar isi direktori Home dan menyediakan akses cepat ke tempat-tempat umum dari sidebar sebelah kiri.</title>
+		 <screenshot> <mediaobject>
+			<imageobject>
+				<imagedata fileref="images/desktops/xfce/thunar.png" format="PNG" width="100%" />
+			</imageobject>
+
+		</mediaobject>
+		 </screenshot>
+	</figure>
+	 </sect1> <sect1> <title>Pengaturan Sistem</title>
+	 <para>
+		Untuk menjalankan pengaturan sistem, silahkan klik pada bagian <guimenu>Menu</guimenu> dan pilih <guimenuitem>Pengaturan Sistem</guimenuitem>.
+	</para>
+	 <figure id="xfce-desktop-settings-figure">
+		<title>Pengaturan Sistem</title>
+		 <screenshot> <mediaobject>
+			<imageobject>
+				<imagedata fileref="images/desktops/xfce/pengaturansistem.png" format="PNG" width="100%" />
+			</imageobject>
+
+		</mediaobject>
+		 </screenshot>
+	</figure>
+	 </sect1>
+</chapter>
+

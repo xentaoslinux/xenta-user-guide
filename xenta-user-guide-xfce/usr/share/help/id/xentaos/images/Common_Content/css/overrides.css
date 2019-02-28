@@ -1,0 +1,38 @@
+h1 {
+	color:#3c3c3c
+}
+
+.section h1.title {
+	color:#3c3c3c;
+}
+
+
+h2,h3,h4,h5,h6 {
+	color:#3c3c3c;
+}
+
+table {
+	border:1px solid #3c3c3c;
+}
+
+table th {
+	background-color:#3c3c3c;
+}
+
+
+table tr.even td {
+	background-color:#f5f5f5;
+}
+
+.term{
+	color:#3c3c3c
+}
+
+.revhistory table th {
+	color:#3c3c3c;
+}
+
+.edition {
+	color: #3c3c3c;
+}
+
