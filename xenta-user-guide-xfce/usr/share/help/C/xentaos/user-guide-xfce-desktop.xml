@@ -23,7 +23,7 @@
 		<title>The Xfce Menu</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktops/xfce/places-menu.png" format="PNG" width="100%" />
+				<imagedata fileref="images/desktops/xfce/menu.png" format="PNG" width="100%" />
 			</imageobject>
 
 		</mediaobject>
@@ -53,16 +53,16 @@
 		</listitem>
 		 <listitem>
 			<para>
-				Launch <wordasword>Nemo</wordasword>, the Xfce file manager, by clicking on <guimenu>Menu</guimenu> and selecting <guimenuitem>Files</guimenuitem>. Then, within Nemo, you can access common places by clicking on them in the sidebar, on the left of the window.
+				Launch <wordasword>Thunar</wordasword>, the Xfce file manager, by clicking on <guimenu>Menu</guimenu> and selecting <guimenuitem>Files</guimenuitem>. Then, within Thunar, you can access common places by clicking on them in the sidebar, on the left of the window.
 			</para>
 		</listitem>
 
 	</itemizedlist>
-	 <figure id="xfce-desktop-nemo-figure">
-		<title>Nemo, the file manager, listing the content of the Home directory and providing quick-access to common places from the left sidebar.</title>
+	 <figure id="xfce-desktop-thunar-figure">
+		<title>Thunar, the file manager, listing the content of the Home directory and providing quick-access to common places from the left sidebar.</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktops/xfce/nemo.png" format="PNG" width="100%" />
+				<imagedata fileref="images/desktops/xfce/thunar.png" format="PNG" width="100%" />
 			</imageobject>
 
 		</mediaobject>
