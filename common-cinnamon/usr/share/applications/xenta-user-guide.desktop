@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Help
 Comment=Launch help browser
-Exec=yelp %u
+Exec=yelp help:xentaos
 Icon=help-browser
 StartupNotify=true
 Terminal=false
