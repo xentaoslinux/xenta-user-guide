@@ -7,23 +7,23 @@
 <!ENTITY HOLDER "Xenta OS">
 <!ENTITY EDITION "Xfce">
 ]>
-<chapter id="cinnamon-desktop">
+<chapter id="xfce-desktop">
 	<title>Introduction to the Desktop</title>
 	 <para>
 		The <wordasword>desktop</wordasword> is the component of the operating system which is responsible for the elements that appear on the desktop: The <wordasword>Panel</wordasword>, the <wordasword>Wallpaper</wordasword>, the <wordasword>Control Center</wordasword>, the menus... etc.
 	</para>
 	 <para>
-		The Cinnamon Edition of Xenta OS uses the Cinnamon desktop which is both intuitive and powerful.
+		The Xfce Edition of Xenta OS uses the Xfce desktop which is both intuitive and powerful.
 	</para>
 	 <sect1> <title>The Menu</title>
 	 <para>
-		In Cinnamon, almost everything is accessible from the 'Menu'. To open it, click on <guimenu>Menu</guimenu> at the bottom-left of your screen, or press <keycombo><keycap>Ctrl</keycap><keycap>Super_L</keycap></keycombo> (Super_L is the left Windows key on your keyboard).
+		In Xfce, almost everything is accessible from the 'Menu'. To open it, click on <guimenu>Menu</guimenu> at the bottom-left of your screen, or press <keycombo><keycap>Ctrl</keycap><keycap>Super_L</keycap></keycombo> (Super_L is the left Windows key on your keyboard).
 	</para>
-	 <figure id="cinnamon-desktop-menu-figure">
-		<title>The Cinnamon Menu</title>
+	 <figure id="xfce-desktop-menu-figure">
+		<title>The Xfce Menu</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktops/cinnamon/places-menu.png" format="PNG" width="100%" />
+				<imagedata fileref="images/desktops/xfce/places-menu.png" format="PNG" width="100%" />
 			</imageobject>
 
 		</mediaobject>
@@ -40,7 +40,7 @@
 		As well as your files, this directory also contains pre-defined sub-directories such as <wordasword>Documents</wordasword>, <wordasword>Music</wordasword>, <wordasword>Videos</wordasword>...etc which you can use to better organize your files.
 	</para>
 	 <para>
-		Other important places are your <wordasword>Desktop</wordasword> folder (which containsn the files visible on your desktop), the filesystem (which contains all system files and directories), removable devices connected to the computer, the network and bookmarks (you can bookmark any directory to gain quick-access to it).
+		Other important places are your <wordasword>Desktop</wordasword> folder (which contains the files visible on your desktop), the filesystem (which contains all system files and directories), removable devices connected to the computer, the network and bookmarks (you can bookmark any directory to gain quick-access to it).
 	</para>
 	 <para>
 		To quickly access one of these places, perform one of the following actions:
@@ -53,16 +53,16 @@
 		</listitem>
 		 <listitem>
 			<para>
-				Launch <wordasword>Nemo</wordasword>, the Cinnamon file manager, by clicking on <guimenu>Menu</guimenu> and selecting <guimenuitem>Files</guimenuitem>. Then, within Nemo, you can access common places by clicking on them in the sidebar, on the left of the window.
+				Launch <wordasword>Nemo</wordasword>, the Xfce file manager, by clicking on <guimenu>Menu</guimenu> and selecting <guimenuitem>Files</guimenuitem>. Then, within Nemo, you can access common places by clicking on them in the sidebar, on the left of the window.
 			</para>
 		</listitem>
 
 	</itemizedlist>
-	 <figure id="cinnamon-desktop-nemo-figure">
+	 <figure id="xfce-desktop-nemo-figure">
 		<title>Nemo, the file manager, listing the content of the Home directory and providing quick-access to common places from the left sidebar.</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktops/cinnamon/nemo.png" format="PNG" width="100%" />
+				<imagedata fileref="images/desktops/xfce/nemo.png" format="PNG" width="100%" />
 			</imageobject>
 
 		</mediaobject>
@@ -72,11 +72,11 @@
 	 <para>
 		To launch the system settings, click on <guimenu>Menu</guimenu> and select <guimenuitem>System Settings</guimenuitem>.
 	</para>
-	 <figure id="cinnamon-desktop-settings-figure">
+	 <figure id="xfce-desktop-settings-figure">
 		<title>System Settings</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
-				<imagedata fileref="images/desktops/cinnamon/systemsettings.png" format="PNG" width="100%" />
+				<imagedata fileref="images/desktops/xfce/systemsettings.png" format="PNG" width="100%" />
 			</imageobject>
 
 		</mediaobject>
