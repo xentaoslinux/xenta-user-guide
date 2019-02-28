@@ -8,23 +8,23 @@
 <!ENTITY EDITION "Xfce">
 ]>
 <chapter id="installation">
-	<title>Installation of Xenta OS</title>
+	<title>Cara Menginstall Xenta OS</title>
 	 <para>
-		You can download the Xenta OS operating system for free. It comes as an ISO file which you need to burn to a blank DVD<footnote>
+		Anda dapat mengunduh sistem operasi Xenta OS secara gratis di http://www.xentaos.com/. Filenya berupa ISO yang harus Anda burn ke DVD kosong atau melakukan bootable ke flashdisk.<footnote>
 		<para>
-			It is also possible to write the ISO image to a USB stick or other memory device and boot from that, or to boot from the ISO image on the hard drive, but these options are somewhat more advanced and the method presented here is recommended. For help with alternative methods of installing and running Xenta OS, please visit the forums.
+			Dan juga dapat dengan cara melakukan bootable ISO ke stik USB atau perangkat memori lain dan mem-boot dari situ, atau juga mem-bootable dari ISO ke hard drive, pilihan ini lebih maju dan metode yang disajikan di sini direkomendasikan. Untuk bantuan dan informasi lebih lanjut dengan metode alternatif menginstal dan menjalankan Xenta OS, silakan kunjungi forum.
 		</para>
-		</footnote>. The liveDVD is then bootable and provides a fully-functional operating system which you can try without affecting your PC. In layman's terms, when you put Xenta OS on a DVD and place it into your computer, you can try it out while leaving your current system intact.
+		</footnote>. LiveDVD kemudian dapat berjalan dengan sistem operasi yang terinstal di dalamnya dan berfungsi penuh yang dapat Anda coba tanpa mempengaruhi PC Anda. Dalam istilah awam, ketika Anda menjalankan Xenta OS pada DVD/FD dan memasukkannya ke komputer Anda, Anda dapat mencobanya tanpa perlu khawatir data Anda terganggu.
 	</para>
 	 <para>
-		If you like what you see when running the liveDVD you can decide to install the system to your hard drive. All the necessary tools (partitioning and installation tools) are present on the DVD.
+		Jika Anda menyukai apa yang Anda lihat saat menjalankan liveDVD, Anda dapat memutuskan untuk menginstal sistem operasi Xenta OS ke hard drive Anda. Semua alat yang diperlukan (alat partisi dan instalasi) ada di DVD.
 	</para>
-	 <sect1 id="download-iso"> <title>Download the ISO</title>
+	 <sect1 id="download-iso"> <title>Unduh ISO Xenta OS</title>
 	 <para>
-		To download Xenta OS, visit the download page at <ulink url="http://www.xentaos.org/p/download.html">http://www.xentaos.org/p/download.html</ulink> and choose the edition you're interested in.
+		Untuk mengunduh sistem operasi Xenta OS, silahkan kunjungi halaman unduhan Xenta OS di <ulink url="http://www.xentaos.org/p/download.html">http://www.xentaos.org/p/download.html</ulink> dan pilih edisi yang Anda minati.
 	</para>
 	 <para>
-		From this page, you should find:
+		Dari halaman ini, Anda dapat menemukan:
 	</para>
 	 <itemizedlist>
 		<listitem>
@@ -34,104 +34,104 @@
 		</listitem>
 		 <listitem>
 			<para>
-				a torrent link
+				tautan torrent
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				a list of download mirrors
+				daftar mirror unduhan
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		The file you need to download is an ISO file. There are two ways to download this file, by torrent (a Peer to Peer protocol) or via a download mirror (HTTP or FTP protocol). Once your download is finished, you can ensure your ISO file isn’t corrupted by checking its signature with the MD5.
+		File yang perlu Anda unduh adalah file ISO. Ada dua cara untuk mengunduh file ini, yang pertama dengan torrent (protokol Peer to Peer) atau melalui mirror download (protokol HTTP atau FTP). Setelah unduhan Anda selesai, Anda dapat memastikan file ISO Anda tidak rusak dengan memeriksa signature with the MD5.
 	</para>
 	 <note>
 		<para>
-			If you don't have a broadband connection, or if your Internet access is too slow you can order the DVD from <ulink url="http://www.xentaos.org/p/store.html">http://www.xentaos.org/p/store.html</ulink>.
+			Jika Anda tidak memiliki koneksi internet, atau jika akses internet Anda terlalu lambat, Anda dapat memesan DVD di <ulink url="http://www.xentaos.org/p/store.html">http://www.xentaos.org/p/store.html</ulink>.
 		</para>
 	</note>
-	 <sect2> <title>Via torrent</title>
+	 <sect2> <title>Melalui torrent</title>
 	 <para>
-		Torrent is a Peer to Peer (P2P) protocol. Basically, instead of downloading from a central location, a torrent lets you download the ISO file in parts from different people across the Internet.
+		Torrent adalah protokol Peer to Peer (P2P). Pada dasarnya, alih-alih mengunduh dari lokasi pusat, torrent memungkinkan Anda mengunduh file ISO di bagian-bagian dari orang yang berbeda di Internet.
 	</para>
 	 <para>
-		The more people who download the ISO file, the faster the download speed gets. This is the preferred and recommended way to download Xenta OS.
+		Semakin banyak orang yang mengunduh file ISO, semakin cepat kecepatan unduhannya. Ini adalah cara yang disukai dan direkomendasikan untuk mengunduh Xenta OS.
 	</para>
-	 <sect3> <title>Install a Torrent client</title>
+	 <sect3> <title>Instal klien Torrent</title>
 	 <para>
-		You need a piece of software called a "torrent client" in order to download files via torrent.
-	</para>
-	 <itemizedlist>
-		<listitem>
-			<para>
-				If you run Xenta OS you already have a torrent client installed.
-			</para>
-		</listitem>
-		 <listitem>
-			<para>
-				If you run another Linux distribution, you can install "Transmission".
-			</para>
-		</listitem>
-		 <listitem>
-			<para>
-				If you run Windows you can use µTorrent.
-			</para>
-		</listitem>
-
-	</itemizedlist>
-	 </sect3> <sect3> <title>Download the Torrent file</title>
-	 <para>
-		The next step is to follow the torrent link from the Xenta OS website and to download the .torrent file. This file is very small. After it downloads, you should open it with your torrent client.
-	</para>
-	 <para>
-		The torrent client will probably ask you where you want to save the ISO. Select a destination and then wait for the download to complete.
-	</para>
-	 <para>
-		For more information about the torrent protocol, visit <ulink url="http://en.wikipedia.org/wiki/BitTorrent">http://en.wikipedia.org/wiki/BitTorrent</ulink>.
-	</para>
-	 </sect3> </sect2> <sect2> <title>Via direct download</title>
-	 <para>
-		If you can’t, or do not choose to use the torrent protocol, then look at the list of download mirrors and pick one of them. They’ll provide a link to the ISO file itself which you can just click to start the download.
-	</para>
-	 </sect2> </sect1> <sect1> <title>Read the release notes</title>
-	 <para>
-		Your download is probably going to last at least an hour, so now would be the perfect time for you to get familiar with the new features coming with the release you’re currently downloading.
-	</para>
-	 <para>
-		The release notes are featured on the Xenta OS web page and answer the following questions:
+		Anda memerlukan perangkat lunak yang disebut "klien torrent" untuk mengunduh file melalui torrent.
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				What are the new features delivered in this release?
+				Jika Anda menjalankan Xenta OS, Anda sudah menginstal klien torrent.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				What are the known problems of this release?
+				Jika Anda menjalankan distribusi Linux lain, Anda dapat menginstal aplikasi "Transmission".
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				How do I upgrade from the previous release?
+				Jika Anda menggunakan Windows, Anda dapat menggunakan μTorrent.
+			</para>
+		</listitem>
+
+	</itemizedlist>
+	 </sect3> <sect3> <title>Unduh File Torrent</title>
+	 <para>
+		Langkah selanjutnya adalah mengakses tautan torrent dari situs web Xenta OS dan mengunduh file .torrent. File ini sangat kecil. Setelah mengunduhnya, Anda harus membukanya dengan klien torrent Anda.
+	</para>
+	 <para>
+		Klien torrent mungkin akan bertanya kepada Anda di mana Anda ingin menyimpan file ISO. Pilih tujuan dan kemudian tunggu unduhannya selesai.
+	</para>
+	 <para>
+		Untuk informasi lebih lanjut tentang protokol torrent, kunjungi <ulink url="http://en.wikipedia.org/wiki/BitTorrent">http://en.wikipedia.org/wiki/BitTorrent</ulink>.
+	</para>
+	 </sect3> </sect2> <sect2> <title>Melalui Unduhan Langsung</title>
+	 <para>
+		Jika Anda tidak bisa, atau tidak memilih untuk menggunakan protokol torrent, maka lihatlah daftar mirror unduhan dan pilih salah satunya. Mereka akan memberikan tautan ke file ISO itu sendiri yang dapat Anda klik untuk mulai mengunduh.
+	</para>
+	 </sect2> </sect1> <sect1> <title>Silahkan Baca Catatan Rilis</title>
+	 <para>
+		Unduhan Anda mungkin akan bertahan setidaknya satu jam, jadi sekarang adalah waktu yang tepat bagi Anda untuk mengenal fitur-fitur baru yang datang dengan rilis yang sedang Anda unduh.
+	</para>
+	 <para>
+		Catatan rilis ditampilkan di halaman web Xenta OS dan menjawab pertanyaan berikut:
+	</para>
+	 <itemizedlist>
+		<listitem>
+			<para>
+				Apa saja fitur baru yang diberikan dalam rilis ini?
+			</para>
+		</listitem>
+		 <listitem>
+			<para>
+				Apa masalah yang diketahui dari rilis ini?
+			</para>
+		</listitem>
+		 <listitem>
+			<para>
+				Bagaimana cara mengupgrade OS Saya dari rilis sebelumnya?
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		They also contain screenshots of the latest release. Of course, you could find out about most features highlighted in the release notes by simply using the operating system, but you might miss a few things, so it is most reliable to read the release notes.
+		Catatan rilis juga berisi tangkapan layar dari rilis terbaru. Tentu saja, Anda dapat mencari tahu tentang sebagian besar fitur yang disorot dalam catatan rilis dengan hanya menggunakan sistem operasi, tetapi Anda mungkin kehilangan beberapa hal, jadi metode paling andal untuk membaca catatan rilis.
 	</para>
 	 <para>
-		The release notes for Xenta OS 1.3 LTS Arok are available at <ulink url="http://www.xentaos.org/2017/08/rilis-xenta-os-13-lts-arok-cinnamon.html">http://www.xentaos.org/2017/08/rilis-xenta-os-13-lts-arok-cinnamon.html</ulink>
+		Catatan rilis untuk Xenta OS 1.3 LTS Arok tersedia di <ulink url="http://www.xentaos.org/2017/08/rilis-xenta-os-13-lts-arok-cinnamon.html">http://www.xentaos.org/2017/08/rilis-xenta-os-13-lts-arok-cinnamon.html</ulink>
 	</para>
-	 </sect1> <sect1> <title>Check the MD5</title>
+	 </sect1> <sect1> <title>Cek MD5</title>
 	 <para>
-		You’ve read the release notes, you just can’t wait to play with the new features or try Xenta OS, and your download just finished successfully. You’re ready to burn a DVD and to boot on it… but hey! Wait for a second!
+		Jika Anda telah membaca catatan rilis, dan Anda tidak sabar untuk bermain dengan fitur baru atau mencoba Xenta OS, dan unduhan Anda baru saja selesai dengan sukses. Anda siap burn to DVD dan menjalankannya ... tapi hei! Tunggu sebentar!
 	</para>
 	 <para>
-		If that DVD is faulty you will experience weird bugs and will have a lot of trouble finding help. The two most common reasons for a DVD to be faulty are:
+		Jika DVD itu rusak, Anda akan menjumpai bug aneh dan akan kesulitan menemukan bantuan. Dua alasan paling umum mengapa DVD rusak adalah:
 	</para>
 	 <itemizedlist>
 		<listitem>
