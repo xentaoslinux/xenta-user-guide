@@ -19,11 +19,7 @@
 	 <para>
 		In Xfce, almost everything is accessible from the 'Menu'. To open it, click on <guimenu>Menu</guimenu> at the bottom-left of your screen, or press <keycombo><keycap>Ctrl</keycap><keycap>Super_L</keycap></keycombo> (Super_L is the left Windows key on your keyboard).
 	</para>
-<<<<<<< HEAD
-	 <figure id="cinnamon-desktop-menu-figure">
-=======
 	 <figure id="xfce-desktop-menu-figure">
->>>>>>> c06adfb7e504c632d1f31a7a7dcc90d24be12c00
 		<title>The Xfce Menu</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
