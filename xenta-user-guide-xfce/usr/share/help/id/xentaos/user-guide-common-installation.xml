@@ -29,7 +29,7 @@
 	 <itemizedlist>
 		<listitem>
 			<para>
-				an MD5 signature
+				MD5 signature
 			</para>
 		</listitem>
 		 <listitem>
@@ -183,34 +183,34 @@
 	</note>
 	 </sect1> <sect1> <title>Cara Burn ISO ke DVD</title>
 	 <para>
-		Now that you have checked the ISO file with MD5, you are ready to burn it to a DVD.
+		Sekarang Anda telah memeriksa file ISO dengan MD5, Anda siap untuk burn file ISO ke DVD.
 	</para>
 	 <para>
-		Get a blank DVD-R (a DVD-RW should work as well, but this type of media is known to have compatibility issues) and your favorite marker and label the DVD. Although labeling your DVDs sounds trivial, you should be sure to do so, as you can easily end up with 20 unlabeled and unidentifiable discs on your desk. :)
+		Dapatkan DVD-R kosong (DVD-RW juga bisa digunakan, tetapi jenis media ini diketahui memiliki masalah kompatibilitas) dan spidol favorit Anda dan beri label DVD. Walaupun memberi label DVD Anda terdengar sepele, Anda harus memastikannya dengan cara memberikan nama atau label, untuk mempermudah menemukan DVD ini dan bertujuan agar tidak tercecer atau tertukar dengan DVD lainnya yang tidak berlabel dan tidak dapat diidentifikasi di meja Anda. :)
 	</para>
 	 <para>
-		Insert the blank DVD-R in the drive and get ready to burn the ISO.
+		Masukkan DVD-R kosong di drive dan bersiap untuk burn ISO.
 	</para>
 	 <para>
-		If you’re running Linux with Cinnamon right-click on the ISO file and select: open with: Brasero, choose “Burn image” and follow the steps given there.
+		Jika Anda menjalankan Linux dengan Cinnamon klik kanan pada file ISO dan pilih: buka dengan: Brasero, pilih "Burn Image" dan ikuti langkah-langkah yang tertera di sana.
 	</para>
 	 <para>
-		If you’re running Linux with KDE, launch K3B and in the “Tools” menu choose “Write ISO Image”.
+		Jika Anda menjalankan Linux dengan KDE, jalankan K3B di menu "Tools" dan pilih "Write ISO Image".
 	</para>
 	 <para>
-		If you’re running Windows you can use a program like InfraRecorder.
+		Jika Anda menjalankan Windows, Anda dapat menggunakan program seperti InfraRecorder.
 	</para>
 	 <note>
 		<para>
-			Make sure to burn the ISO image to disk, and not to write the ISO file to the disk. A very common mistake, especially for people using Nero, is to actually burn the ISO file on the disk as a data file. The ISO file is an image of a disk so it needs to be burnt not as a file which will appear on the disk, but as an ISO image which will be decompressed and whose content will be burnt onto the disc. After burning the DVD you shouldn't see the ISO file within the disc, but rather folders like “casper” or “isolinux”. Most burning software has a special option for this.
+			Pastikan untuk burn image ISO ke disk, dan tidak write the file ISO ke disk. Kesalahan yang sangat umum, terutama bagi orang yang menggunakan Nero, adalah benar-benar burn file ISO pada disk sebagai file data. File ISO adalah gambar disk sehingga perlu diburn bukan sebagai file yang akan muncul pada disk, tetapi sebagai gambar ISO yang akan didekompresi dan yang isinya akan diburn ke disk. Setelah memburn DVD Anda tidak akan melihat file ISO di dalam disk, melainkan folder seperti "casper" atau "isolinux". Sebagian besar perangkat lunak yang terburn memiliki opsi khusus untuk ini.
 		</para>
 	</note>
-	 </sect1> <sect1> <title>Boot the LiveDVD</title>
+	 </sect1> <sect1> <title>Boot LiveDVD</title>
 	 <para>
-		Place the DVD in the drive and restart the computer. You should now see the following screen:
+		Tempatkan DVD di drive dan nyalakan kembali komputer. Sekarang, Anda akan melihat layar berikut:
 	</para>
 	 <figure id="installation-isolinux">
-		<title>The boot screen</title>
+		<title>Layar Boot</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/isolinux.png" format="PNG" width="100%" />
@@ -221,24 +221,25 @@
 	</figure>
 	 <note>
 		<para>
-			If you don’t see this screen and your PC boots as usual it’s probably because your BIOS is not set to boot on DVD. Restart the computer and press F1, F2, Delete, or Escape (or whatever key lets you enter the BIOS configuration) and change your BIOS settings to tell your computer to boot from its DVD drive.
+			Jika Anda tidak melihat layar ini dan PC Anda melakukan booting seperti biasa, itu mungkin karena BIOS Anda tidak diatur untuk boot pada DVD. Nyalakan kembali komputer dan tekan F1, F2, Delete, atau Escape (atau tombol apa pun yang memungkinkan Anda masuk ke konfigurasi BIOS) dan ubah pengaturan BIOS Anda untuk memberi tahu komputer Anda untuk boot dari drive DVD-nya.
 		</para>
 	</note>
-	 </sect1> <sect1> <title>Install Xenta OS on your hard drive</title>
+	 </sect1> <sect1> <title>Instal Xenta OS di hard Drive Anda</title>
 	 <para>
-		From the first screen choose the default <guilabel>Start Xenta OS</guilabel> option and press Enter. After a little while the live system should be ready and you should see the desktop.
+		Dari layar pertama pilih default <guilabel>Start Xenta OS</guilabel> opsi dan tekan Enter. Setelah beberapa saat, sistem live seharusnya sudah siap dan Anda akan melihat desktop.
 	</para>
 	 <para>
-		At this stage Xenta OS is not installed on your computer, it’s simply running from the DVD. The system you have in front of you is, however, almost exactly the same as the one you will have on your computer after the installation is finished.
+		Pada tahap ini Xenta OS tidak diinstal pada komputer Anda, melainkan hanya berjalan dari DVD. Sistem yang Anda tampil di depan Anda, bagaimanapun, hampir persis sama dengan yang Anda miliki di komputer Anda setelah instalasi selesai.
 	</para>
 	 <para>
-		Have fun with it and see if you like it. Bear in mind that when running from the DVD, Xenta OS runs significantly slower than it does when it is installed on a hard drive, since it has to read data from the DVD drive, which is a slower medium than the hard drive.
+		Bersenang-senanglah dengannya dan lihat apakah Anda menyukainya. Ingatlah bahwa ketika menjalankan dari DVD, Xenta OS berjalan secara signifikan lebih lambat daripada ketika diinstal pada hard drive, karena ia harus membaca data dari drive DVD, merupakan media yang lebih lambat daripada hard drive.
 	</para>
 	 <para>
-		When you are ready, double-click on the <guilabel>Install Xenta OS</guilabel> icon located on the desktop. The Installer appears:
+		Ketika Anda siap untuk menginstal Xenta OS, klik dua kali pada ikon <guilabel>Install Xenta OS</guilabel> yang terletak di desktop. Akan muncul Installer:
+
 	</para>
 	 <figure id="installation-languages">
-		<title>The language selection screen</title>
+		<title>Layar Pemilihan Bahasa</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_languages.png" format="PNG" width="100%" />
@@ -248,13 +249,13 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		If you haven’t read the release notes yet, and you have an Internet connection, then this an ideal opportunity to review them; simply click on the underlined link. It is highly recommended that users read the release notes prior to installation in order to advise themselves of new features, as well as any issues that might affect their particular hardware configuration.
+		Jika Anda belum membaca catatan rilis, dan Anda memiliki koneksi Internet, maka ini peluang ideal untuk memeriksanya; cukup klik tautan yang digarisbawahi. Sangat disarankan agar pengguna membaca catatan rilis sebelum pemasangan untuk memberi saran kepada diri mereka sendiri tentang fitur-fitur baru, serta masalah apa pun yang mungkin memengaruhi konfigurasi perangkat keras khusus mereka.
 	</para>
 	 <para>
-		Select your language and press the <guibutton>Continue</guibutton> button.
+		Pilih bahasa yang Anda inginkan dan tekan tombol <guibutton>Continue atau lanjut</guibutton>.
 	</para>
 	 <figure id="installation-warning">
-		<title>Checking that everything is fine...</title>
+		<title>Memeriksa bahwa semuanya baik-baik saja ...</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_warning.png" format="PNG" width="100%" />
@@ -264,10 +265,10 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		In the next screen, make sure you're connected to a power source (if you're using a laptop), the Internet and that you have the recommended amount of disk space. Then press the <guibutton>Continue</guibutton> button.
+		Di layar berikutnya, pastikan Anda terhubung ke sumber daya (jika Anda menggunakan laptop), Internet dan Anda memiliki jumlah ruang disk yang disarankan. Lalu tekan tombol <guibutton>Continue</guibutton>.
 	</para>
 	 <figure id="installation-type">
-		<title>Choosing an installation type</title>
+		<title>Memilih Jenis Instalasi</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_type.png" format="PNG" width="100%" />
@@ -277,28 +278,28 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		In the next screen you can assign your entire hard drive to Xenta OS or install it alongside other operating systems. Alternatively, you can also define and assign the partitions manually.
+		Di layar berikutnya Anda dapat memilih seluruh hard drive Anda terinstal Xenta OS atau menginstalnya bersama sistem operasi lain. Atau, Anda juga dapat menentukan dan menetapkan partisi secara manual.
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				If you choose to use the entire disk, its content will be erased and Xenta OS will be installed as the only operating system on your computer.
+				Jika Anda memilih untuk menggunakan seluruh disk, isinya akan dihapus dan Xenta OS akan diinstal sebagai satu-satunya sistem operasi di komputer Anda.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				If you choose to install it alongside other operating systems, the installer will use the free space available on other partitions to create a new one for Xenta OS. You will be asked how much space you want to allocate to it. The installer will then shrink a partition and take care of everything for you. Post-installation your computer will have a boot screen from which you'll be able to boot all your operating systems.
+				Jika Anda memilih untuk menginstalnya di samping sistem operasi lain, penginstal akan menggunakan ruang kosong yang tersedia di partisi lain untuk membuat yang baru untuk Xenta OS. Anda akan ditanya berapa banyak ruang yang ingin Anda alokasikan untuk itu. Penginstal kemudian akan mengecilkan partisi dan mengurus semuanya untuk Anda. Pasca-instalasi komputer Anda akan memiliki layar boot dari mana Anda dapat mem-boot semua sistem operasi Anda.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				If you choose to specify partitions manually, a partition editor will appear, giving you full control over the partitioning of your hard drive. This is recommended only to advanced users who understand how partitioning works under Linux. Note that Xenta OS requires a partition of at least 6GB and that the recommended size for a swap partition is 1.5 times the amount of RAM available on the computer.
+				Jika Anda memilih untuk menentukan partisi secara manual, editor partisi akan muncul, memberi Anda kontrol penuh atas partisi hard drive Anda. Ini direkomendasikan hanya untuk pengguna tingkat lanjut yang memahami cara kerja partisi di Linux. Perhatikan bahwa Xenta OS membutuhkan partisi minimal 6GB dan ukuran yang disarankan untuk partisi swap adalah 1,5 kali jumlah RAM yang tersedia di komputer.
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <figure id="installation-drive">
-		<title>The installation summary screen</title>
+		<title>Layar ringkasan instalasi</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_drive.png" format="PNG" width="100%" />
@@ -308,7 +309,7 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		Choose the appropriate option and click on the <guibutton>Install Now</guibutton> button. At this stage, the installation is going on in the background and the installer asks you setup questions:
+		Pilih opsi yang sesuai dan klik pada tombol <guibutton>Install Now</guibutton>. Pada tahap ini, penginstalan sedang berlangsung di latar belakang dan penginstal meminta Anda menjawab pertanyaan:
 	</para>
 	 <figure id="installation-timezone">
 		<title>Choosing a timezone</title>
@@ -321,15 +322,15 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		Choose your location on the map by clicking on the city which is the nearest to you. The purpose of this step is to identify your time zone. Make sure the <guilabel>Current time</guilabel> appears correctly and click the <guibutton>Continue</guibutton> button.
+		Pilih lokasi Anda di peta dengan mengklik kota yang terdekat dengan Anda. Tujuan langkah ini adalah untuk mengidentifikasi zona waktu Anda. Pastikan <guilabel>Current time</guilabel> muncul dengan benar dan klik tombol <guibutton> Continue </guibutton>.
 	</para>
 	 <note>
 		<para>
-			Sometimes the installer doesn't properly handle Summer/Winter time adjustments, so even by selecting the proper city you might see a difference of an hour or so with the correct time. Simply ignore this at this stage and remember to make sure that the time is correct after you reboot in your newly installed Xenta OS desktop.
+			Terkadang penginstal tidak menangani penyesuaian waktu Musim Panas / Musim Dingin dengan benar, bahkan dengan memilih kota yang tepat Anda mungkin akan melihat perbedaan satu jam atau lebih dengan waktu yang tepat. Abaikan saja ini pada tahap ini dan ingatlah untuk memastikan bahwa waktunya tepat setelah Anda reboot di desktop Xenta OS yang baru Anda instal.
 		</para>
 	</note>
 	 <figure id="installation-keyboard">
-		<title>Choosing a keyboard layout</title>
+		<title>Memilih Tata Letak Keyboard</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_keyboard.png" format="PNG" width="100%" />
@@ -339,30 +340,30 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		Select your keyboard layout. If you are not sure about exactly which layout matches the keyboard you have, click on the text field at the bottom of the screen and start typing with your keyboard. Make sure the keys you press match the characters that appear in the text field in order to ensure you have selected the right keyboard layout. Some layouts only differ with respect to accents, numbers and punctuation signs, so make sure to test these as well.
+		Pilih tata letak keyboard Anda. Jika Anda tidak yakin tentang tata letak mana yang cocok dengan keyboard yang Anda miliki, klik bidang teks di bagian bawah layar dan mulai mengetik dengan keyboard Anda. Pastikan tombol yang Anda tekan cocok dengan karakter yang muncul di bidang teks untuk memastikan Anda telah memilih tata letak keyboard yang tepat. Beberapa tata letak hanya berbeda sehubungan dengan aksen, angka, dan tanda baca, jadi pastikan untuk mengujinya juga.
 	</para>
 	 <para>
-		When you’re ready click the <guibutton>Continue</guibutton> button.
+		Ketika Anda siap silahkan klik tombol <guibutton>Continue</guibutton>.
 	</para>
 	 <para>
-		Enter your real name and a username and password. Every time you’ll use Xenta OS you’ll use your account with this username and password. Once Xenta OS is installed you’ll be able to define other accounts if other people are to use this computer.
+		Masukkan nama asli Anda dan nama pengguna dan kata sandi. Setiap kali Anda menggunakan Xenta OS, Anda akan menggunakan akun Anda dengan nama pengguna dan kata sandi ini. Setelah Xenta OS diinstal, Anda dapat menentukan akun lain jika orang lain menggunakan komputer ini.
 	</para>
 	 <para>
-		Also give your computer a name. This name will be used by your computer on the network or in various places of the system. If you’ve never really thought about naming your computers, then now is the time. People commonly pick flower (dahlia, rose, tulip) or planet (mars, jupiter, pluto) names for the computers on their network. It’s entirely up to you what you want to use, but make sure to pick a name you like and that you will easily remember.
+		Berikan juga nama komputer Anda. Nama ini akan digunakan oleh komputer Anda di jaringan atau di berbagai tempat sistem. Jika Anda tidak pernah benar-benar berpikir untuk menamai komputer Anda, maka sekaranglah saatnya. Orang biasanya memilih nama bunga (dahlia, mawar, tulip) atau planet (mars, jupiter, pluto) untuk komputer di jaringan mereka. Semuanya terserah Anda apa yang ingin Anda gunakan, tetapi pastikan untuk memilih nama yang Anda sukai dan Anda akan mudah mengingatnya.
 	</para>
 	 <note>
 		<para>
-			Capital letters, spaces and special characters are not permitted in the username or in the name of the computer.
+			Huruf kapital, spasi, dan karakter khusus tidak diizinkan dalam nama pengguna atau atas nama komputer.
 		</para>
 	</note>
 	 <para>
-		If you're the only one using the computer and you want to bypass the login screen, check the option <guilabel>Log in automatically</guilabel>.
+		Jika Anda satu-satunya yang menggunakan komputer dan Anda ingin mempercepat layar masuk, centang opsi <guilabel>Log in automatically</guilabel>.
 	</para>
 	 <para>
-		When you’re ready click on the <guibutton>Forward</guibutton> button.
+		Ketika Anda siap klik pada tombol <guibutton>Forward</guibutton>.
 	</para>
 	 <figure id="installation-user">
-		<title>The user settings screen</title>
+		<title>Layar Pengaturan Pengguna</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_user.png" format="PNG" width="100%" />
@@ -372,10 +373,11 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		The installer might detect other operating systems on your computer and ask you if you want to migrate some personal information. Typically this allows you to migrate bookmarks, contacts, favorites and other sorts of personal information from other operating systems installed on your hard disk drive into the newly installed Xenta OS. When you’re ready click on the <guibutton>Continue</guibutton> button.
+		Pemasang mungkin mendeteksi sistem operasi lain di komputer Anda dan menanyakan apakah Anda ingin memigrasikan beberapa informasi pribadi. Biasanya ini memungkinkan Anda untuk memigrasikan bookmark, kontak, favorit, dan jenis informasi pribadi lainnya dari sistem operasi lain yang diinstal pada drive hard disk Anda ke Xenta OS yang baru diinstal. Ketika Anda siap klik pada tombol <guibutton> continue </guibutton>.
+
 	</para>
 	 <figure id="installation-ongoing">
-		<title>The installation usually takes between 10 and 15 minutes</title>
+		<title>Instalasi biasanya memakan waktu antara 10 dan 15 menit Tergantung Hardware yang Anda Gunakan</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/installation_ongoing.png" format="PNG" width="100%" />
@@ -386,22 +388,22 @@
 	</figure>
 	 <note>
 		<para>
-			The installer will download packages from the Internet to support the language you’ve selected. Your computer needs to be connected to the Internet for this to work. Otherwise just <guibutton>skip</guibutton> that step and you’ll be able to add support for your language after the installation is finished and you’ve rebooted into your new system.
+			Pemasang akan mengunduh paket dari Internet untuk mendukung bahasa yang Anda pilih. Komputer Anda harus terhubung ke Internet agar dapat berjalan. Jika tidak, cukup <guibutton> Skip </guibutton> langkah itu dan Anda akan dapat menambahkan dukungan untuk bahasa Anda setelah instalasi selesai dan Anda telah mem-boot ulang ke sistem baru Anda.
 		</para>
 	</note>
 	 <para>
-		Once the installation is done click the <guibutton>Restart Now</guibutton> button and the liveDVD or LiveUSB environment will shut down.
+		Setelah instalasi selesai klik tombol <guibutton> Restart Now </guibutton> dan lingkungan liveDVD atau LiveUSB akan dimatikan.
 	</para>
 	 <para>
-		When prompted, remove the DVD from the drive or remove the USB and press Enter. Your PC is now ready to boot Xenta OS from the hard drive.
+		Saat diminta, lepaskan DVD dari drive atau lepaskan USB dan tekan Enter. PC Anda sekarang siap untuk mem-boot Xenta OS dari hard drive.
 	</para>
-	 </sect1> <sect1> <title>Reboot the computer</title>
+	 </sect1> <sect1> <title>Silahkan Nyalakan Kembali Komputer Anda</title>
 	 <para>
-		Upon reboot, if you have more than one operating system installed, you should see a boot menu. Once Xenta OS is finished loading you should see a new screen inviting you to enter your username and password. This screen is the “MDM Login Manager” and is commonly called “MDM”. Enter the password you chose during the installation.
+		Saat reboot, jika Anda memiliki lebih dari satu sistem operasi yang diinstal, Anda akan melihat menu boot. Setelah Xenta OS selesai memuat, Anda akan melihat layar baru yang mengundang Anda untuk memasukkan nama pengguna dan kata sandi Anda. Layar ini adalah "MDM Login Manager" dan biasanya disebut "MDM". Masukkan kata sandi yang Anda pilih saat instalasi.
 	</para>
 	 <note>
 		<para>
-			By default, your “root” password is the same as the password you chose during the installation. If you do not know what this means, then don't worry about it.
+			Secara default, kata sandi "root" Anda sama dengan kata sandi yang Anda pilih saat instalasi. Jika Anda tidak tahu apa artinya ini, maka jangan khawatir.
 		</para>
 	</note>
 	 </sect1>
