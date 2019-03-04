@@ -128,7 +128,7 @@
 	</para>
 	 </sect1> <sect1> <title>Cek MD5</title>
 	 <para>
-		Jika Anda telah membaca catatan rilis, dan Anda tidak sabar untuk bermain dengan fitur baru atau mencoba Xenta OS, dan unduhan Anda baru saja selesai dengan sukses. Anda siap burn to DVD dan menjalankannya ... tapi hei! Tunggu sebentar!
+		Jika Anda telah membaca catatan rilis, dan Anda tidak sabar untuk memulai dengan fitur baru atau mencoba Xenta OS, dan unduhan Anda baru saja selesai dengan sukses. pastikan Anda siap burn to DVD dan menjalankannya ... tapi hei! Tunggu sebentar!
 	</para>
 	 <para>
 		Jika DVD itu rusak, Anda akan menjumpai bug aneh dan akan kesulitan menemukan bantuan. Dua alasan paling umum mengapa DVD rusak adalah:
@@ -136,21 +136,21 @@
 	 <itemizedlist>
 		<listitem>
 			<para>
-				An issue with the download causing problems in your ISO file
+				Masalah dengan unduhan yang menyebabkan masalah pada file ISO Anda
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				An error during the burn process that alters the contents of your burned liveDVD
+				Kesalahan selama proses burn ISO yang mengubah konten liveDVD Anda
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		The MD5 signature, which is present on the download page, provides a quick way for you to make sure that your ISO file is exactly like it should be. So, let’s check the ISO file you just downloaded before we burn it and save ourselves from a lot of potential problems.
+		MD5 signature, yang ada pada halaman unduhan, menyediakan cara cepat bagi Anda untuk memastikan bahwa file ISO Anda persis seperti yang seharusnya. Jadi, mari kita periksa file ISO yang baru saja Anda unduh sebelum kita burn dan menyelamatkan dari banyak masalah potensial.
 	</para>
 	 <para>
-		If you run any version of Linux you probably already have the md5sum program installed. Open a terminal and “cd” to the directory where your ISO file is (for instance, if “linuxmint.iso” is on the Desktop), open a terminal and type:
+		Jika Anda menjalankan Linux versi apa pun, Mungkin Anda telah menginstal program md5sum. Caranya, Buka terminal dan tulis "cd" lalu cari direktori atau folder tempat file ISO Anda berada (misalnya, jika "linuxmint.iso" terletak di "Desktop"), buka terminal dan ketik:
 	</para>
 	 
 <screen>
@@ -158,17 +158,17 @@
                 <command>md5sum <replaceable>myfile.iso</replaceable></command>
 </screen>
 	 <para>
-		This command should output a series of numbers and letters which comprise the MD5 sum, or signature, of your ISO file. By design, any small change to the ISO file will cause this signature to be significantly different, allowing us to verify that the file is exactly as it should be.
+		Perintah ini harus menampilkan serangkaian angka dan huruf yang terdiri dari jumlah MD5, atau signature, dari file ISO Anda. Secara desain, setiap perubahan kecil pada file ISO akan menyebabkan signature ini berbeda secara signifikan, memungkinkan kami untuk memverifikasi bahwa file itu persis seperti yang seharusnya.
 	</para>
 	 <para>
-		Compare that signature with the one on the download page of the Xenta OS website. If the two signatures are the same, then you know your ISO file is exactly the same as the original and you can now get ready to burn it on DVD.
+		Bandingkan signature itu dengan signature di halaman unduhan situs web Xenta OS. Jika kedua signature itu sama, maka Anda tahu file ISO Anda persis sama dengan aslinya dan sekarang Anda siap untuk burn di DVD.
 	</para>
 	 <note>
 		<para>
-			If you happen to run Windows, chances are you don’t have md5sum installed. You can get it from here: <ulink url="http://www.etree.org/md5com.html">http://www.etree.org/md5com.html</ulink>
+			Jika Anda menjalankan Windows, kemungkinan Anda tidak menginstal md5sum. Anda bisa mendapatkannya di sini: <ulink url="http://www.etree.org/md5com.html">http://www.etree.org/md5com.html</ulink>
 		</para>
 		 <para>
-			Place the ISO file and the md5sum.exe in the same place (let’s say in C:\) and run “cmd.exe”. In the command line environment, type the following commands:
+			Tempatkan file ISO dan md5sum.exe di tempat yang sama (katakanlah di Folder C:\) dan jalankan "cmd.exe". Di lingkungan baris perintah, ketikkan perintah berikut:
 		</para>
 		 
 <screen>
@@ -177,11 +177,11 @@
                 <command>md5sum <replaceable>myfile.iso</replaceable></command>
 </screen>
 		 <para>
-			Then compare the signature to the one present on the website.
+			Kemudian bandingkan signature dengan yang ada di situs web.
 		</para>
 
 	</note>
-	 </sect1> <sect1> <title>Burn the ISO to DVD</title>
+	 </sect1> <sect1> <title>Cara Burn ISO ke DVD</title>
 	 <para>
 		Now that you have checked the ISO file with MD5, you are ready to burn it to a DVD.
 	</para>
