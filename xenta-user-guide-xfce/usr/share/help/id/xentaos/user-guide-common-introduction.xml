@@ -16,68 +16,68 @@
 		Xenta OS merupakan sistem operasi yang berjalan seperti Microsoft Windows, Apple Mac OS, dan OS BSD gratis. Xenta OS juga dirancang untuk bekerja bersama dengan sistem operasi lain (termasuk yang tercantum di atas), dan dapat secara otomatis mengatur <wordasword> dual boot </wordasword> atau <wordasword> multi-boot </wordasword> lingkungan (di mana pengguna diminta untuk memulai sistem operasi mana pada setiap boot-up) selama instalasi.
 	</para>
 	 <para>
-		Xenta OS adalah sistem operasi yang bagus untuk individu dan perusahaan.
+		Xenta OS adalah sistem operasi yang cocok untuk penggunaan pribadi dan perusahaan.
 	</para>
 	 <sect1 id="history"> <title>Sejarah</title>
 	 <para>
-		Xenta OS is a very modern operating system; Its development started in 2016. It is, however, built upon very mature and proven software layers, including the Linux kernel, the GNU tools and the &EDITION; desktop. It also relies on the Ubuntu and Debian projects and uses their systems as a base.
+		Xenta OS adalah sistem operasi yang sangat modern; Pengembangannya dimulai pada tahun 2016. Namun, dibangun di atas lapisan perangkat lunak yang sangat matang dan terbukti, termasuk kernel Linux, alat GNU dan &EDITION; Desktop. Tentunya pengembangan ini juga bergantung pada proyek Linux Mint, Ubuntu dan Debian yang menggunakan basis sistem mereka.
 	</para>
 	 <para>
-		The Xenta OS project focuses on making the desktop more usable and more efficient for everyday tasks performed by regular users. Underneath the desktop the operating system also provides a huge collection of available software and a very well integrated set of services.
+		Proyek Xenta OS berfokus pada membuat desktop lebih bermanfaat dan lebih efisien untuk tugas sehari-hari yang dilakukan oleh pengguna biasa. Di bawah desktop sistem operasi juga menyediakan banyak koleksi perangkat lunak yang tersedia dan serangkaian layanan yang terintegrasi dengan sangat baik.
 	</para>
 	 <para>
-		Xenta OS saw a rapid rise in popularity and more and more people use it every day.
+		Xenta OS melihat peningkatan popularitas yang cepat dan semakin banyak orang yang menggunakannya sistem operasi GNU/Linux setiap hari.
 	</para>
 	 </sect1> <sect1> <title>Purpose</title>
 	 <para>
-		The purpose of Xenta OS is to provide a desktop operating system that home users and companies can use at no cost and which is as efficient, easy to use, and elegant as possible.
+		Tujuan Xenta OS adalah untuk menyediakan sistem operasi desktop yang dapat digunakan pengguna dan perusahaan rumahan tanpa biaya dan seefisien mungkin, mudah digunakan, dan sebagus mungkin.
 	</para>
 	 <para>
-		One of the ambitions of the Xenta OS project is to become the best operating system available by making it easy for people to get to use advanced technologies, rather than by simplifying them (and thereby reducing their capabilities), or by copying the approaches taken by other developers.
+		Salah satu ambisi dari proyek Xenta OS adalah menjadi sistem operasi terbaik yang tersedia dengan membuatnya mudah bagi orang dalam menggunakan teknologi canggih, daripada dengan menyederhanakan mereka (dan dengan demikian mengurangi kemampuan mereka), atau dengan menyalin pendekatan yang diambil oleh pengembang lain.
 	</para>
 	 <para>
-		The goal is to develop our own idea of the ideal desktop. We think that it is best to make the most out of the modern technologies that exist under Linux and make it easy for everybody to use its most advanced features.
+		Tujuannya adalah untuk mengembangkan ide kami sendiri tentang desktop yang ideal. Kami berpikir bahwa yang terbaik untuk memanfaatkan teknologi modern yang ada di Linux dan membuatnya mudah bagi semua orang dalam menggunakan fitur-fiturnya yang paling canggih.
 	</para>
 	 </sect1> <sect1> <title>Version numbers and codenames</title>
 	 <para>
-		Version numbers and codenames follow a unique logic in Xenta OS:
+		Nomor versi dan nama kode Xenta OS mengikuti nama khas asal Indonesia:
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				Codenames provide a way to refer to versions of Xenta OS that is more familiar than using a version number.
+				Nama kode merupakan identitas dari versi rilis yang lebih akrab daripada menggunakan nomor versi.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Since version 5, Xenta OS has followed a 6 months release cycle and uses a simplified version scheme. The version number simply gets incremented every 6 months.
+				Sejak versi 1.3, Xenta OS telah mengikuti siklus rilis 6 bulan dan menggunakan skema versi yang disederhanakan. Nomor versi bertambah setiap 6 bulan.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				If revisions are made to a particular release (a bit like Service Packs in Windows) its version number gets a minor revision increment. For instance <wordasword>3</wordasword> becomes <wordasword>3.1</wordasword>.
+				Jika revisi dibuat untuk rilis tertentu (sedikit perubahan seperti Paket Layanan di Windows) nomor versinya mendapat peningkatan revisi kecil. Misalnya <wordasword> 3 </wordasword> menjadi <wordasword> 3.1 </wordasword>.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Codenames in Xenta OS are always female names ending with <wordasword>a</wordasword>. They follow the alphabetical order and the first letter of the codename corresponds to the index of the version number in the alphabet.
+				Nama kode dalam Xenta OS selalu menggunakan nama khas <wordasword> Indonesia </wordasword>. Mereka mengikuti urutan abjad dan huruf pertama dari nama kode sesuai dengan indeks nomor versi dalam alfabet.
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		So far Xenta OS has used the following codenames:
+                Sejauh ini Xenta OS telah menggunakan nama kode berikut:
 	</para>
 	 <table>
-		<title>Xenta OS codenames</title>
+		<title>Nama Kode Xenta OS</title>
 		 <tgroup align="left" cols="2" colsep="1" rowsep="1">
 			<thead>
 				<row>
 					<entry>
-						Version
+						Versi
 					</entry>
 					 <entry>
-						Codename
+						Nama Kode
 					</entry>
 
 				</row>
@@ -89,7 +89,7 @@
 						1.1
 					</entry>
 					 <entry>
-						-Alpha (No Public)
+						-Alpha (Tidak Untuk Publik)
 					</entry>
 
 				</row>
@@ -98,7 +98,7 @@
 						1.2
 					</entry>
 					 <entry>
-						-Beta (No Public)
+						-Beta (Tidak untuk Publik)
 					</entry>
 
 				</row>
@@ -134,48 +134,48 @@
 		</tgroup>
 
 	</table>
-	 </sect1> <sect1> <title>Editions</title>
+	 </sect1> <sect1> <title>Edisi</title>
 	 <para>
-		An Edition is a release of Xenta OS which is customized to address a certain set of needs. This guide covers the &EDITION; Edition. Here are some of the most popular editions:
+		Edisi adalah rilis Xenta OS yang disesuaikan untuk memenuhi kebutuhan tertentu. Panduan ini mencakup &EDITION; Edisi. Berikut ini beberapa edisi paling populer:
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				Cinnamon Edition (uses a Cinnamon desktop)
+				Edisi Cinnamon (menggunakan desktop Cinnamon)
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Xfce Edition (uses a Xfce desktop)
+				Edisi Xfce (menggunakan desktop Xfce)
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <note>
 		<para>
-			If you intend to redistribute or to make commercial use of Xenta OS in the USA or in Japan and if you're not sure about patent legislation you should use the <guilabel>No Codecs</guilabel> installation images.
+			Jika Anda bermaksud untuk mendistribusikan ulang atau menggunakan Xenta OS secara komersial di AS atau di Jepang dan jika Anda tidak yakin tentang undang-undang paten, Anda harus menggunakan gambar instalasi <guilabel> No Codecs </guilabel>.
 		</para>
 	</note>
-	 </sect1> <sect1> <title>Where to find help</title>
+	 </sect1> <sect1> <title>Di mana mencari bantuan</title>
 	 <para>
-		The Xenta OS community is very helpful and very active. If you have questions or a problem related to Xenta OS, you should be able to get help from other users online.
+		Komunitas Xenta OS sangat membantu dan sangat aktif. Jika Anda memiliki pertanyaan atau masalah yang terkait dengan Xenta OS, Anda seharusnya bisa mendapatkan bantuan dari pengguna lain secara online.
 	</para>
 	 <para>
-		First, make sure to register with the <guilabel>Xenta OS</guilabel>. This is the very first place where you can find help: <ulink url="http://www.xentaos.com/">http://wwww.xentaos.com/</ulink>.
+		Pertama, pastikan untuk mendaftar dengan <guilabel> Xenta OS </guilabel>. Ini adalah tempat pertama di mana Anda dapat menemukan bantuan: <ulink url = "http://www.xentaos.com/"> http://wwww.xentaos.com/ </ulink>.
 	</para>
 	 <para>
-		If you want to chat with other users you can connect to the IRC chat room. Under Xenta OS simply launch <guilabel>Hexchat</guilabel> from the menu. If you’re using another operating system or another IRC client make sure to connect to the <guilabel>irc.spotchat.org</guilabel> server and to join the channels <guilabel>#xentaos</guilabel>.
+		Jika Anda ingin mengobrol dengan pengguna lain, Anda dapat terhubung ke ruang obrolan IRC. Di Xenta OS cukup luncurkan <guilabel> Hexchat </guilabel> dari menu. Jika Anda menggunakan sistem operasi lain atau klien IRC lain, pastikan untuk terhubung ke server <guilabel> irc.spotchat.org </guilabel> dan untuk bergabung dengan saluran <guilabel> #xentaos </guilabel>.
 	</para>
 	 <para>
-		Xenta OS uses Linux Mint<footnote>
+		Xenta OS Berbasis Linux Mint<footnote>
 		<para>
-			Linux Mint is another operating system based on GNU/Linux.
+			Linux Mint adalah sistem operasi lain yang berbasiskan GNU / Linux.
 		</para>
-		</footnote> repositories<footnote>
+		</footnote> repositori<footnote>
 		<para>
-			A repository is an online service by which software is stored and made available for the operating system to install and update from. Most operating systems based on GNU/Linux use repositories and connect to them via HTTP or FTP to install and upgrade their software.
+			Repositori adalah layanan online tempat perangkat lunak disimpan dan tersedia untuk sistem operasi tempat pemasangan dan pembaruan. Sebagian besar sistem operasi berdasarkan GNU/Linux menggunakan repositori dan menghubungkannya melalui HTTP atau FTP untuk menginstal dan memutakhirkan perangkat lunak mereka.
 		</para>
-		</footnote> (more on what this means later) and is fully compatible with it so most of the resources, articles, tutorials, and software made for Linux Mint also work for Xenta OS. If you can’t find help on a specific subject, make sure to search on the same subject for Linux Mint.
+		</footnote> (lebih lanjut tentang apa artinya ini nanti) dan sepenuhnya kompatibel dengannya sehingga sebagian besar sumber daya, artikel, tutorial, dan perangkat lunak yang dibuat untuk Linux Mint juga berfungsi untuk Xenta OS. Jika Anda tidak dapat menemukan bantuan tentang subjek tertentu, pastikan untuk mencari subjek yang sama untuk Linux Mint.
 	</para>
 	 </sect1>
 </chapter>

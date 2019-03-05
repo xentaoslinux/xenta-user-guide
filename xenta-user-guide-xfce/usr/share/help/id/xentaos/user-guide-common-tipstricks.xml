@@ -8,13 +8,13 @@
 <!ENTITY EDITION "Xfce">
 ]>
 <chapter id="tipstricks">
-	<title>Tips and Tricks</title>
+	<title>Tips dan Trik</title>
 	 <para>
-		Are you making the most of your desktop? Do you usually press <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> on your keyboard to copy some text? Do you open a text editor to take a quick note? How do you share files with your friends? There are many ways to perform simple tasks, some more efficient than others. This chapter is going to show you a few particularities of the Xenta OS desktop, to make sure you make the most of your system.
+		Apakah Anda mencoba memaksimalkan desktop Anda? Apakah Anda biasanya menekan <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo> pada keyboard Anda untuk menyalin beberapa teks? Apakah Anda membuka editor teks untuk membuat catatan cepat? Bagaimana Anda berbagi file dengan teman Anda? Ada banyak cara untuk melakukan tugas-tugas sederhana, beberapa lebih efisien daripada yang lain. Bab ini akan menunjukkan kepada Anda beberapa kekhasan dari desktop Xenta OS, untuk memastikan Anda memaksimalkan sistem Anda.
 	</para>
-	 <sect1> <title>Copy and paste with the mouse!</title>
+	 <sect1> <title>Salin dan tempel dengan mouse!</title>
 	 <para>
-		Most people are used to clicking on the <guimenu>Edit</guimenu> menu or to right clicking on the content they want to copy. In Xenta OS you can do this as well, but you can also copy and paste content from the comfort of your mouse. Here's how it works: The left button of the mouse copies and the middle button pastes. It's as simple as that!
+		Kebanyakan orang terbiasa mengklik menu <guimenu> Edit </guimenu> atau mengklik kanan pada konten yang ingin mereka salin. Di Xenta OS Anda dapat melakukan ini juga, tetapi Anda juga dapat menyalin dan menempel konten dari kenyamanan mouse Anda. Begini cara kerjanya: Tombol kiri dari salinan mouse dan tembel tombol tengah. Sesederhana itu!
 	</para>
 	 <para>
 		Let's give it a try. Launch LibreOffice Writer or a text editor, or any application of your choice that lets you input text. Now type a few sentences. Select some of the text you just typed with the left button of your mouse. Think you need to click on the <guimenu>Edit</guimenu> menu and press <guimenuitem>Copy</guimenuitem>? No? Bet you're thinking you would use a combination of keys on your keyboard such as <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo>. In Linux, it is much simpler. Just by selecting the text, you've already copied it. That's right... that text is now copied to your mouse buffer and you don't need to press anything else.
