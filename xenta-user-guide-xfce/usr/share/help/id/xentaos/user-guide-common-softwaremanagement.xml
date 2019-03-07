@@ -8,15 +8,15 @@
 <!ENTITY EDITION "Xfce">
 ]>
 <chapter id="software">
-	<title>Software Management</title>
+	<title>Manajemen Perangkat Lunak</title>
 	 <para>
-		If you have installed Linux for the first time, then you may not be familiar with the concept of organizing software into <wordasword>packages</wordasword>.
+		Jika Anda telah menginstal Linux untuk pertama kalinya, mungkin Anda belum terbiasa dengan konsep pengorganisasian perangkat lunak ke dalam <wordasword>paket</wordasword>.
 	</para>
 	 <para>
-		You will soon become familiar with package management and appreciate the advantages it offers in terms of security, control and ease of use.
+		Dalam waktu dekat Anda mungkin terbiasa dengan manajemen paket dan menghargai keuntungan yang ditawarkannya dalam hal keamanan, kontrol, dan kemudahan penggunaan.
 	</para>
 	 <para>
-		We have tried to make it so that all or most of your hardware was detected and drivers were installed automatically so that your computer would work out of the box. We have also tried to make it so that you could do many of the things you want to without having to look around for third party software on websites. You may have noticed that your Xenta OS installation already has a full office suite, a professional-quality image-editing solution, an IM and an IRC client, a disk burner, and several media players (as well as many other basic accessories). Relax, it's okay! You haven't stolen anything! This is what free software is all about! And the truly great thing about package management in Xenta OS and generally is that you should never need to look far and wide for extra software, even when the time comes that you do want more functionality from your Xenta OS system.
+		Kami telah mencoba membuatnya sehingga semua atau sebagian besar perangkat keras Anda terdeteksi dan driver diinstal secara otomatis sehingga komputer Anda akan bekerja otomatis tanpa melakukan install manual terlebih dahulu. Kami juga telah mencoba membuatnya sehingga Anda dapat melakukan banyak hal yang Anda inginkan tanpa harus mencari-cari perangkat lunak pihak ketiga di situs web. Anda mungkin telah memperhatikan bahwa instalasi Xenta OS Anda sudah memiliki office suite lengkap, solusi pengeditan gambar berkualitas profesional, IM dan klien IRC, pembakar disk, dan beberapa pemutar media (serta banyak aksesori dasar lainnya). Tenang, tidak apa-apa! Anda belum mencuri apa pun! Inilah yang dimaksud dengan perangkat lunak bebas! Dan hal yang benar-benar hebat tentang manajemen paket di Xenta OS dan umumnya adalah Anda tidak perlu mencari jauh-jauh untuk perangkat lunak tambahan, bahkan ketika saatnya tiba Anda menginginkan lebih banyak fungsionalitas dari sistem Xenta OS Anda.
 	</para>
 	 <para>
 		This section is intended to explain how this works and the advantages that it can bring to you. It's a bit long, but hopefully it will provide you with a good understanding of the philosophy behind package management and why it is considered a Good Thing (a phrase commonly capitalized by Linux users to mean that something is squarely in the category of good). If you're in a hurry, you can skip to the next section which will tell you how to actually use the package system.
