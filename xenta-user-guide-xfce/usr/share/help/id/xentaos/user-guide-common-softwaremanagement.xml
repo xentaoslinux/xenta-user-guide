@@ -19,58 +19,58 @@
 		Kami telah mencoba membuatnya sehingga semua atau sebagian besar perangkat keras Anda terdeteksi dan driver diinstal secara otomatis sehingga komputer Anda akan bekerja otomatis tanpa melakukan install manual terlebih dahulu. Kami juga telah mencoba membuatnya sehingga Anda dapat melakukan banyak hal yang Anda inginkan tanpa harus mencari-cari perangkat lunak pihak ketiga di situs web. Anda mungkin telah memperhatikan bahwa instalasi Xenta OS Anda sudah memiliki office suite lengkap, solusi pengeditan gambar berkualitas profesional, IM dan klien IRC, pembakar disk, dan beberapa pemutar media (serta banyak aksesori dasar lainnya). Tenang, tidak apa-apa! Anda belum mencuri apa pun! Inilah yang dimaksud dengan perangkat lunak bebas! Dan hal yang benar-benar hebat tentang manajemen paket di Xenta OS dan umumnya adalah Anda tidak perlu mencari jauh-jauh untuk perangkat lunak tambahan, bahkan ketika saatnya tiba Anda menginginkan lebih banyak fungsionalitas dari sistem Xenta OS Anda.
 	</para>
 	 <para>
-		This section is intended to explain how this works and the advantages that it can bring to you. It's a bit long, but hopefully it will provide you with a good understanding of the philosophy behind package management and why it is considered a Good Thing (a phrase commonly capitalized by Linux users to mean that something is squarely in the category of good). If you're in a hurry, you can skip to the next section which will tell you how to actually use the package system.
+		Bagian ini dimaksudkan untuk menjelaskan cara kerja dan keuntungan kepada Anda. Akan tetapi ini sedikit lebih panjang, tapi mudah-mudahan akan memberi Anda pemahaman yang baik tentang filosofi di balik manajemen paket dan mengapa itu dianggap sebagai Good Thing (frasa yang biasanya ditulis dengan huruf kapital oleh pengguna Linux berarti ada sesuatu yang masuk dalam kategori barang). Jika Anda terburu-buru, Anda dapat melompat ke bagian selanjutnya yang akan memberi tahu Anda bagaimana sebenarnya menggunakan sistem paket.
 	</para>
 	 <para>
-		The problems with browsing software vendors' websites and downloading and installing the software they offer are many:
+		Masalah dengan menjelajahi situs web vendor perangkat lunak dan mengunduh dan menginstal perangkat lunak yang mereka tawarkan banyak, seperti:
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				It is difficult or impossible to find out if the software has been tested to work with your operating system
+				Sulit atau tidak mungkin untuk mengetahui apakah perangkat lunak telah diuji untuk bekerja dengan sistem operasi Anda.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				It is difficult or impossible to know how this software will interact with the other software installed on your system
+				Sulit atau tidak mungkin untuk mengetahui bagaimana perangkat lunak ini akan berinteraksi dengan perangkat lunak lain yang diinstal pada sistem Anda.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				It is difficult or impossible to know if you can place your trust that software from an unknown developer software will not cause any harm, willful or negligent, to your system Even if you know about a specific piece of software and its developer, you cannot be entirely sure that you are not downloading an executable that has been swapped out by a malicious third party for some type of malware.
+				Sulit atau tidak mungkin untuk mengetahui apakah Anda dapat mempercayai suatu perangkat lunak dari pengembang yang tidak dikenal bahwa perangkat lunak tersebut tidak akan menyebabkan kerusakan, disengaja atau lalai, ke sistem operasi Anda. Bahkan jika Anda mengenal perangkat lunak tertentu dan pengembangnya, Anda juga tidak dapat sepenuhnya yakin bahwa Anda tidak mengunduh yang dapat dieksekusi yang telah ditukar oleh pihak ketiga yang jahat untuk beberapa jenis malware.
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		Furthermore, a problem with downloading and installing multiple different programs, from multiple different developers, is that there is no managerial infrastructure. Before you say “big deal”, consider how you are going to keep all these different pieces of software up to date. If you get tired of a program and want to remove it, how do you know how to achieve that? The program in question might not have come with a removal option, and even if it did, much of the time this will fail to remove the software cleanly and completely. In a very real sense, when you ran that installer program, you gave up some of your control of your computer to a program written entirely by a complete stranger.
+		Lebih jauh, masalah dengan mengunduh dan menginstal banyak program yang berbeda, dari beberapa pengembang yang berbeda, tidak ada manajemen terstruktur. Sebelum Anda mengatakan "masalah besar", pertimbangkan bagaimana Anda akan memperbarui semua perangkat lunak yang berbeda ini. Jika Anda bosan dengan program dan ingin menghapusnya, bagaimana Anda tahu cara mencapainya? Program yang dimaksud mungkin tidak datang dengan opsi penghapusan, dan bahkan jika itu terjadi, sebagian besar waktu ini akan gagal untuk menghapus perangkat lunak dengan bersih dan sepenuhnya. Dalam arti yang sangat nyata, ketika Anda menjalankan program pemasang itu, Anda menyerahkan sebagian kendali Anda atas komputer Anda ke program yang seluruhnya ditulis oleh orang asing.
 	</para>
 	 <para>
-		Finally, software which is distributed in this way is often, by virtue of necessity, “static”. This means that not only do you need to download the program itself, but also all of the data libraries that are required for it to run. Since a third-party software developer cannot know which data libraries you may already have available on your system, the only way that they can guarantee it will run on your system is by supplying all of the data libraries it needs along with the program itself. This means bigger downloads, and it means that when the time comes to update a given library, it needs to be done separately for all those programs using it, instead of just once. In summary, the distribution of static software results in the unnecessary duplication of a lot of work.
+		Akhirnya, perangkat lunak yang didistribusikan dengan cara ini berdasarkan kebutuhan, bersifat “statis”. Ini berarti bahwa Anda tidak hanya perlu mengunduh program itu sendiri, tetapi juga semua pustaka data yang diperlukan untuk menjalankannya. Karena pengembang perangkat lunak pihak ketiga tidak dapat mengetahui pustaka data mana yang mungkin sudah Anda miliki di sistem Anda, satu-satunya cara mereka dapat menjamin itu akan berjalan di sistem Anda adalah dengan memasok semua pustaka data yang dibutuhkan bersama dengan program itu sendiri. Ini berarti unduhan yang lebih besar, dan itu berarti bahwa ketika saatnya tiba untuk memperbarui perpustakaan yang diberikan, itu harus dilakukan secara terpisah untuk semua program yang menggunakannya, bukan hanya sekali. Singkatnya, distribusi perangkat lunak statis menghasilkan duplikasi yang tidak perlu dari banyak pekerjaan.
 	</para>
 	 <para>
-		Package management in Xenta OS, and GNU/Linux operating systems in general, has been established for some time and is the preferred method for managing software as it avoids all of these issues. We've been safely and automatically installing our software since the early 1990s.
+		Manajemen paket di Xenta OS, dan sistem operasi GNU/Linux pada umumnya, telah ditetapkan untuk beberapa waktu dan merupakan metode yang disukai untuk mengelola perangkat lunak karena menghindari semua masalah ini. Kami telah menginstal perangkat lunak kami dengan aman dan otomatis sejak awal 1990-an.
 	</para>
 	 <para>
-		Software is first written by a developer, as you might expect, and this end of the production chain is known as “upstream”. As a user of a Linux distribution, you are referred to as being at the furthest point “downstream” (unless you're an admin, in which case your users are the furthest point downstream, but you knew that because you're an admin). Once the developer is happy with the program or the update to the program they have written, they will release the source code for it. They will also communicate in their documentation which data libraries or other programs they took advantage of when they were writing the program. They have been doing this for some time and there are standardized and venerable ways for them to do this. Note that, with a few exceptions (usually either hardware manufacturers who release drivers for Linux, like nVidia or ATI, or certain major companies like Adobe, who we can trust) they release the actual source code for the program, that is, the list of instructions in that program in a human readable form. This has a number of implications, but most importantly for this discussion it means that they are willing to have their software peer reviewed by anyone and everyone with an Internet connection. It's awfully difficult to sneak spyware into your program when you're letting everyone see what you've written!
+		Perangkat lunak pertama kali ditulis oleh pengembang, seperti yang Anda harapkan, dan akhir dari rantai produksi ini dikenal sebagai "upstream". Sebagai pengguna distribusi Linux, Anda disebut berada di titik terjauh yang disebut “hilir” atau pengguna (kecuali Anda adalah admin, dalam hal ini pengguna Anda adalah titik terjauh di hilir, tetapi Anda tahu itu karena Anda adalah admin ). Setelah pengembang puas dengan program atau pembaruan pada program yang mereka tulis, mereka akan merilis kode sumber untuk itu. Mereka juga akan berkomunikasi dalam dokumentasi mereka tentang perpustakaan data atau program lain yang mereka manfaatkan ketika mereka menulis program. Mereka telah melakukan ini selama beberapa waktu dan ada cara standar dan terhormat bagi mereka untuk melakukan ini. Perhatikan bahwa, dengan beberapa pengecualian (biasanya produsen perangkat keras yang merilis driver untuk Linux, seperti nVidia atau ATI, atau perusahaan besar tertentu seperti Adobe, yang dapat kami percayai) mereka merilis kode sumber aktual untuk program, yaitu, daftar instruksi dalam program itu dalam bentuk yang dapat dibaca manusia. Ini memiliki sejumlah implikasi, tetapi yang paling penting untuk diskusi ini itu berarti bahwa mereka bersedia untuk ditinjau oleh rekan perangkat lunak mereka oleh siapa saja dan semua orang dengan koneksi internet. Sangat sulit untuk menyelinap spyware ke dalam program Anda ketika Anda membiarkan semua orang melihat apa yang Anda tulis!
 	</para>
 	 <para>
-		The software now moves down the stream to package maintainers, who are either volunteers or paid employees working for a Linux distribution. It is their responsibility to compile the source code for the software, test it on the distribution to make sure that it works, resolve any problems that they encounter and finally package the compiled (i.e., machine-readable) software in a convenient format. This package contains the executable program(s), their configuration files, and the instructions the package management software needs to successfully install it. Note that it won't ordinarily contain any static libraries, since it doesn't need to – the libraries are provided by other packages, and are therefore known as shared libraries. Your package management software will know if that a particular package requires another package to be installed first (like a shared library), because, as you will remember, the data libraries and related packages needed for the software to work were declared further upstream and that information is included in the package. The instructions are sufficiently detailed that even specific versions of other packages can be requested to ensure interoperability. The finished package is then uploaded to a special file server, which is called a software repository.
+		Perangkat lunak sekarang bergerak ke aliran sungai ke pengelola paket, yang merupakan sukarelawan atau karyawan yang dibayar yang bekerja untuk distribusi Linux. Merupakan tanggung jawab mereka untuk mengkompilasi kode sumber untuk perangkat lunak, mengujinya pada distribusi untuk memastikan bahwa itu berfungsi, menyelesaikan masalah yang mereka hadapi dan akhirnya mengemas perangkat lunak yang dikompilasi (mis., Dapat dibaca mesin) dalam format yang nyaman. Paket ini berisi program yang dapat dieksekusi, file konfigurasinya, dan instruksi yang diperlukan perangkat lunak manajemen paket untuk menginstalnya dengan sukses. Perhatikan bahwa biasanya tidak akan berisi pustaka statis, karena tidak perlu - pustaka disediakan oleh paket lain, dan karenanya dikenal sebagai pustaka bersama. Perangkat lunak manajemen paket Anda akan tahu apakah suatu paket tertentu memerlukan paket lain untuk diinstal terlebih dahulu (seperti perpustakaan bersama), karena, seperti yang Anda ingat, pustaka data dan paket terkait yang diperlukan untuk perangkat lunak untuk bekerja dinyatakan lebih jauh ke hulu dan bahwa informasi termasuk dalam paket. Instruksi cukup rinci bahwa bahkan versi spesifik dari paket lain dapat diminta untuk memastikan interoperabilitas. Paket yang sudah selesai kemudian diunggah ke server file khusus, yang disebut repositori perangkat lunak.
 	</para>
 	 <para>
 		It is from that single location that you are able to download and install the software you need. You will know that the location is bona fide, because it is signed with a certificate that your package manager will check. You will also know that each individual package that you install is secure, because each package is itself signed by a GPG key, which your package manager will also check. Your package manager will even run an MD5 sum on each package to make sure that nothing went wrong when it was downloading, just like we did before with the LiveDVD iso. Notice how it's doing all of this for you. You're just sitting back, sipping a martini, and chatting in #linuxmint on xchat. The package manager has downloaded the packages you have selected, it will follow, to the letter (computers are fastidious in following instructions), the instructions in the package to perfectly install your software, and all of its dependencies, in the right order. There is no space for human error – if the package worked on the maintainer's computer, then it ought to on yours because the package manager will follow exactly the same procedure.
 	</para>
 	 <para>
-		When it comes time to check for software updates, your package manager will automatically compare the software version that you have against what is available in the repository, and do all the necessary work to keep your system running smoothly and securely. So, if version 2.4 of BestSoft is uploaded to the repository, and you have version 2.3, the package manager will compare those version numbers, and offer to install the latest version, taking care, of course, of all the dependencies for the newer version of the software.
+		Ketika tiba saatnya memeriksa pembaruan perangkat lunak, manajer paket Anda akan secara otomatis membandingkan versi perangkat lunak yang Anda miliki dengan apa saja yang tersedia di repositori, dan melakukan semua pekerjaan yang diperlukan untuk menjaga sistem Anda berjalan dengan lancar dan aman. Jadi, jika versi 2.4 dari BestSoft diunggah ke repositori, dan Anda memiliki versi 2.3, manajer paket akan membandingkan nomor-nomor versi itu, dan menawarkan untuk menginstal versi terbaru, berhati-hati, tentu saja, dari semua dependensi untuk versi yang lebih baru perangkat lunak.
 	</para>
 	 <para>
-		Sounding good yet? It gets better.
+		Kedengarannya cukup bagus bukan? Ya ini menjadi lebih baik.
 	</para>
 	 <para>
-		Humans err where computers don't and from time to time something may go wrong in this process. Perhaps you will, by accident, install hardware drivers for the wrong piece of hardware and this might break something. We've all done that. Or perhaps there's a bug or your favorite feature was removed by the program's developer for some reason. These problems demonstrate, paradoxically, the strength and security of package management. Because your package manager keeps fastidious records of everything it ever does, it is able to reverse installations, cleanly and completely. It will make sure that removing one package doesn't break any others, and you can even tell it specifically to do things like not automatically upgrade certain packages, because you like them the way they are, or to revert to an earlier version. Finally, the whole process is very heavily peer-reviewed. Because you are part of a large community of Linux users, all using the same repositories to obtain their software, if anything goes wrong you can be absolutely sure there will be a big fuss about it, and that the problem will be resolved quickly! In this way, software distribution in GNU/Linux distributions is very much based on trust, from the moment the original developer displays their source code for all to see, to the open discussion on the distribution's website. You can be confident in the software you obtain, not only because of the security protocols already mentioned, but because if anything does go wrong everyone will be talking about it!
+		Manusia keliru di mana komputer tidak dan dari waktu ke waktu ada sesuatu yang salah dalam proses ini. Mungkin Anda akan, secara tidak sengaja, menginstal driver perangkat keras untuk bagian perangkat keras yang salah dan ini dapat merusak sesuatu. Kita semua sudah melakukannya. Atau mungkin ada bug atau fitur favorit Anda dihapus oleh pengembang program karena suatu alasan. Masalah-masalah ini menunjukkan, secara paradoks, kekuatan dan keamanan manajemen paket. Karena manajer paket Anda menyimpan catatan yang cerdik dari semua yang pernah dilakukannya, ia dapat membalikkan instalasi, dengan bersih dan sepenuhnya. Ini akan memastikan bahwa menghapus satu paket tidak merusak yang lain, dan Anda bahkan dapat mengatakannya secara khusus untuk melakukan hal-hal seperti tidak secara otomatis meningkatkan paket-paket tertentu, karena Anda menyukainya seperti adanya, atau untuk kembali ke versi sebelumnya. Akhirnya, seluruh proses ini sangat ditinjau oleh rekan sejawat. Karena Anda adalah bagian dari komunitas besar pengguna Linux, semua menggunakan repositori yang sama untuk mendapatkan perangkat lunak mereka, jika ada yang salah, Anda dapat benar-benar yakin akan ada keributan besar tentang hal itu, dan bahwa masalahnya akan diselesaikan dengan cepat! Dengan cara ini, distribusi perangkat lunak dalam distribusi GNU / Linux sangat didasarkan pada kepercayaan, mulai dari saat pengembang asli menampilkan kode sumber mereka untuk dilihat semua orang, hingga diskusi terbuka di situs web distribusi. Anda dapat percaya diri pada perangkat lunak yang Anda peroleh, bukan hanya karena protokol keamanan yang telah disebutkan, tetapi karena jika ada kesalahan, semua orang akan membicarakannya!
 	</para>
 	 <para>
-		Let's look again at our list of problems and see what we have solved:
+		Mari kita lihat lagi daftar masalah kita dan lihat apa yang telah kita pecahkan:
 	</para>
 	 <table>
 		<title></title>
@@ -78,10 +78,10 @@
 			<thead>
 				<row>
 					<entry>
-						Problem
+						Masalah
 					</entry>
 					 <entry>
-						Solution
+						Solusi
 					</entry>
 
 				</row>
@@ -90,64 +90,64 @@
 			 <tbody>
 				<row>
 					<entry>
-						It is difficult or impossible to find out if the software has been tested to work with your operating system.
+						Sulit atau tidak mungkin untuk mengetahui apakah perangkat lunak telah diuji untuk bekerja dengan sistem operasi Anda.
 					</entry>
 					 <entry>
-						You know that the software available to you through the repository has been thoroughly tested by the package maintainer and the testing team to work with your operating system. They won't want to get it wrong, mostly on principle, but also because if they do they'll soon be getting lots of emails.
+						Anda tahu bahwa perangkat lunak yang tersedia untuk Anda melalui repositori telah diuji secara menyeluruh oleh pengelola paket dan tim pengujian untuk bekerja dengan sistem operasi Anda. Mereka tidak ingin salah, sebagian besar berdasarkan prinsip, tetapi juga karena jika mereka melakukannya mereka akan segera mendapatkan banyak email.
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						It is difficult or impossible to know how this software will interact with the other software installed on your system.
+						Sulit atau tidak mungkin untuk mengetahui bagaimana perangkat lunak ini akan berinteraksi dengan perangkat lunak lain yang diinstal pada sistem Anda.
 					</entry>
 					 <entry>
-						Similarly, package maintainers try their utmost to ensure that packages won't conflict with other packages offered by their distribution. Of course, they might not have every last package installed on their testing machines (in fact, usually package maintainers build their packages on clean installations to ensure that they are standard), but if a member of the user community finds out that there is a problem, they will no doubt let the distribution team know, and the problem will be fixed, or at least worked on. Unless you are a beta tester, then you are unlikely to ever see such a conflict, because that's what beta testing is for.
+						Demikian pula, pengelola paket berusaha semaksimal mungkin untuk memastikan bahwa paket tidak akan bertentangan dengan paket lain yang ditawarkan oleh distribusi mereka. Tentu saja, mereka mungkin tidak memiliki setiap paket terakhir yang diinstal pada mesin pengujian mereka (pada kenyataannya, biasanya pengelola paket membangun paket mereka pada instalasi yang bersih untuk memastikan bahwa mereka standar), tetapi jika anggota komunitas pengguna mengetahui bahwa ada masalah, mereka tidak akan ragu membiarkan tim distribusi tahu, dan masalah akan diperbaiki, atau setidaknya dikerjakan. Kecuali Anda seorang penguji beta, maka Anda tidak akan pernah melihat konflik seperti itu, karena itulah gunanya pengujian beta.
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						It is difficult or impossible to know if you can place your trust in the developer that their software will not cause any harm, willful or negligent, to your system.
+						Sulit atau tidak mungkin untuk mengetahui apakah Anda dapat menaruh kepercayaan pada pengembang bahwa perangkat lunak mereka tidak akan menyebabkan kerusakan, disengaja atau lalai, ke sistem Anda.
 					</entry>
 					 <entry>
-						Package maintainers are hardly likely to package software they know will harm people's computers (including their own)! Only software which is known and trusted will ever make it to the repository.
+						Pengelola paket hampir tidak mungkin mengemas perangkat lunak yang mereka tahu akan membahayakan komputer orang (termasuk milik mereka)! Hanya perangkat lunak yang dikenal dan tepercaya yang akan berhasil sampai ke repositori.
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						Even if you know about a specific piece of software and its developer, you cannot be entirely sure that you are not downloading an executable that has been swapped out by a malicious third party for some type of malware.
+						Bahkan jika Anda tahu tentang perangkat lunak tertentu dan pengembangnya, Anda tidak dapat sepenuhnya yakin bahwa Anda tidak mengunduh file yang dapat dieksekusi yang telah ditukar oleh pihak ketiga yang jahat untuk beberapa jenis malware.
 					</entry>
 					 <entry>
-						In addition to the usual security measures put in place by the institutions who own the servers (usually prestigious academic or research institutions, or large companies), the repository and packages themselves are secured by certificates and GPG keys. If something's gone wrong, your package manager will tell you about it. The present author, in ten years of using Linux, has never once known anything to go wrong in this respect.
+						Selain langkah-langkah keamanan yang biasa dilakukan oleh lembaga yang memiliki server (biasanya lembaga akademik atau penelitian bergengsi, atau perusahaan besar), repositori dan paket itu sendiri dijamin dengan sertifikat dan kunci GPG. Jika ada yang tidak beres, manajer paket Anda akan memberi tahu Anda tentang hal itu. Penulis saat ini, dalam sepuluh tahun menggunakan Linux, tidak pernah sekalipun tahu ada yang salah dalam hal ini (penulis merupakan tim developer Linux Mint, disini Saya hanya membantu menerjemahkan ke bahasa Indonesia).
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						It is difficult to remove (all traces of) installed programs.
+						Sulit untuk menghapus (semua jejak) program yang diinstal.
 					</entry>
 					 <entry>
-						Because the package management software keeps a complete record of all of its actions, it is quite capable of reversing any steps that it took in the past, while ensuring that removing one package will not cause any other package to fail.
+						Karena perangkat lunak manajemen paket menyimpan catatan lengkap dari semua tindakannya, itu cukup mampu membalikkan setiap langkah yang diambilnya di masa lalu, sambil memastikan bahwa menghapus satu paket tidak akan menyebabkan paket lain gagal.
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						Static packages are big and clunky.
+						Paket statis yang besar dan asing.
 					</entry>
 					 <entry>
-						Because you're using package management, you will only ever download static libraries when there is no shared alternative. If you need new shared data libraries to install a given program, your package manager will know this and install them for you automatically. You will only ever have to download a shared library once because, well, it's shared by all the programs that need it. If you end up removing the last package that needs a shared library, then the package management software will remove that too. But, if you decide that you do want to keep the shared object anyway, perhaps because you just know you'll need it later, then you can tell the package management software to do that, too.
+						Karena Anda menggunakan manajemen paket, Anda hanya akan mengunduh pustaka statis ketika tidak ada alternatif bersama. Jika Anda memerlukan pustaka data bersama baru untuk menginstal program yang diberikan, manajer paket Anda akan mengetahui ini dan menginstalnya untuk Anda secara otomatis. Anda hanya perlu mengunduh perpustakaan bersama sekali karena, ya, itu dibagikan oleh semua program yang membutuhkannya. Jika Anda akhirnya menghapus paket terakhir yang membutuhkan pustaka bersama, maka perangkat lunak manajemen paket juga akan menghapusnya. Tetapi, jika Anda memutuskan bahwa Anda memang ingin menyimpan objek yang dibagikan, mungkin karena Anda baru tahu Anda akan membutuhkannya nanti, maka Anda dapat memberi tahu perangkat lunak manajemen paket untuk melakukannya juga.
 					</entry>
 
 				</row>
 				 <row>
 					<entry>
-						I'm still not convinced.
+						Saya masih belum yakin.
 					</entry>
 					 <entry>
-						Good! Post a message on the forums about it if you have a genuine concern about package management, or to ask about other people's experiences. It bears repeating that the package method of distribution in GNU/Linux relies on trust, so if there's a problem, we want to hear about it!
+						Baik! Posting pesan di forum tentang hal itu jika Anda memiliki kepedulian yang tulus tentang manajemen paket, atau untuk bertanya tentang pengalaman orang lain. Perlu diulang bahwa metode paket distribusi di GNU/Linux bergantung pada kepercayaan, jadi jika ada masalah, kami ingin mendengarnya!
 					</entry>
 
 				</row>
@@ -158,27 +158,27 @@
 
 	</table>
 	 <para>
-		A final word. You may have been subjected to rumors to the effect that Linux isn't finished yet, or that if you use Linux then you are a beta-tester, or that Linux software is unstable. These are all half truths. “Linux” will never be “finished”, any more than any other major operating system can be considered “finished”. From the Linux kernel to the artwork on your screen, all the elements of your operating system will always be under some kind of development. This is because programmers are working hard to keep us up to date with the latest developments in programming and hardware technology. This does not mean that the software available for you to use is of bad quality. The base system at the core of Xenta OS has been under heavy development for about two decades now, and is very mature, stable, and proven. While there are definitely unstable versions of most of the software on your operating system, you won't be using them because you're not a beta tester. You know you're not a beta tester, because you're reading this. The software available to you on the repositories you use will always be stable and well tested, unless you change those repositories to the ones used by the testers (in which case congratulations, you've just become a tester). It's a bit of a no-brainer, really.
+		Kata terakhir. Anda mungkin telah mengalami rumor tentang efek bahwa Linux belum selesai, atau bahwa jika Anda menggunakan Linux maka Anda adalah beta-tester, atau perangkat lunak Linux tidak stabil. Ini semua setengah kebenaran. "Linux" tidak akan pernah "selesai", lebih dari sistem operasi utama lainnya dapat dianggap "selesai". Dari kernel Linux hingga karya seni di layar Anda, semua elemen sistem operasi Anda akan selalu berada di bawah semacam pengembangan. Ini karena programmer bekerja keras untuk membuat kita tetap up to date dengan perkembangan terbaru dalam pemrograman dan teknologi perangkat keras. Ini tidak berarti bahwa perangkat lunak yang tersedia untuk Anda gunakan memiliki kualitas buruk. Sistem dasar pada inti Xenta OS telah dalam pengembangan berat selama sekitar dua dekade sekarang, dan sangat matang, stabil, dan terbukti. Walaupun pasti ada versi yang tidak stabil dari sebagian besar perangkat lunak pada sistem operasi Anda, Anda tidak akan menggunakannya karena Anda bukan penguji beta. Anda tahu Anda bukan penguji beta, karena Anda membaca ini. Perangkat lunak yang tersedia untuk Anda di repositori yang Anda gunakan akan selalu stabil dan teruji dengan baik, kecuali jika Anda mengubah repositori itu ke yang digunakan oleh penguji (dalam hal ini selamat, Anda baru saja menjadi tester). Ini sedikit tidak punya otak, sungguh.
 	</para>
 	 <para>
-		So, to summarize with an example, when you install Opera, Real Player or Google Earth in Xenta OS, these applications do not come from their original developers (Opera, Real and Google). Of course the upstream application comes from these developers, but only after they've been properly packaged and tested do they become available for you. So, in other words, you should never need to go and browse the Internet to look for software, as everything you need is available and already tested for you and for your system by the Xenta OS and Ubuntu teams. All you need to do is choose what you want to do.
+		Jadi, untuk meringkas dengan contoh, ketika Anda menginstal Opera, Real Player atau Google Earth di Xenta OS, aplikasi ini tidak berasal dari pengembang aslinya (Opera, Real, dan Google). Tentu saja aplikasi hulu berasal dari para pengembang ini, tetapi hanya setelah mereka telah dikemas dan diuji dengan benar, mereka tersedia untuk Anda. Jadi, dengan kata lain, Anda tidak perlu pergi dan menjelajah Internet untuk mencari perangkat lunak, karena semua yang Anda butuhkan tersedia dan sudah diuji untuk Anda dan untuk sistem Anda oleh Xenta OS dan tim Ubuntu. Yang perlu Anda lakukan adalah memilih apa yang ingin Anda lakukan.
 	</para>
 	 <para>
-		Xenta OS will update itself automatically through a tool called the Update Manager, which will update not only the base operating system, but all the software installed on your machine as well.
+		Xenta OS akan memperbarui dirinya secara otomatis melalui alat yang disebut Update Manager, yang tidak hanya akan memperbarui sistem operasi dasar, tetapi semua perangkat lunak yang diinstal pada mesin Anda juga.
 	</para>
 	 <para>
-		It's that simple. Whew!
+		Sesederhana itu. Wah!
 	</para>
-	 <sect1> <title>Installing software</title>
+	 <sect1> <title>Menginstal Perangkat Lunak</title>
 	 <para>
-		Some of the most popular applications that are not installed by default in Xenta OS are Opera, Skype, Acrobat Reader, Google Earth and Real Player.
+		Beberapa aplikasi paling populer yang tidak diinstal secara default di Xenta OS adalah Skype, Acrobat Reader, Google Earth dan Real Player.
 	</para>
-	 <sect2> <title>Using the Software Manager</title>
+	 <sect2> <title>Menggunakan Manajer Perangkat Lunak</title>
 	 <para>
-		The easiest way to install software in Xenta OS is to use the <wordasword>Software Manager</wordasword>.
+		Cara termudah untuk menginstal perangkat lunak di Xenta OS adalah dengan menggunakan <wordasword>Manajer Perangkat Lunak</wordasword>.
 	</para>
 	 <figure id="software-mintinstall">
-		<title>The Software Manager</title>
+		<title>Manajer Perangkat Lunak</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_mintinstall.png" format="PNG" width="100%" />
@@ -188,17 +188,17 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		Open the <guimenu>Menu</guimenu> and select <guimenuitem>Software Manager</guimenuitem>.
+		Silahkan buka <guimenu>Menu</guimenu> dan silahkan pilih <guimenuitem>Manajer Perangkat Lunak</guimenuitem>.
 	</para>
 	 <para>
-		The Software Manager lets you browse the software made available for Xenta OS. You can browse by category, search by keyword or sort the software by rating and popularity.
+		Manajer Perangkat Lunak memungkinkan Anda menjelajahi perangkat lunak yang disediakan untuk Xenta OS. Anda dapat menelusuri berdasarkan kategori, mencari berdasarkan kata kunci atau mengurutkan perangkat lunak berdasarkan peringkat dan popularitas.
 	</para>
-	 </sect2> <sect2> <title>Using Synaptic</title>
+	 </sect2> <sect2> <title>Menggunakan Synaptic</title>
 	 <para>
-		If you want to install more than one application at a time or see more technical information about the packages, you can use <wordasword>Synaptic</wordasword>.
+		Jika Anda ingin menginstal lebih dari satu aplikasi sekaligus atau melihat informasi teknis lebih lanjut tentang paket, Anda dapat menggunakan <wordasword>Synaptic</wordasword>.
 	</para>
 	 <figure id="software-synaptic">
-		<title>Synaptic, the Package Manager</title>
+		<title>Synaptic, Merupakan Pengelola Paket</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_synaptic.png" format="PNG" width="100%" />
@@ -208,10 +208,10 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		Open the <guimenu>Menu</guimenu> and select <guimenuitem>Synaptic Package Manager</guimenuitem>.
+		Silahkan buka <guimenu>Menu</guimenu> dan silahkan pilih <guimenuitem>Synaptic Package Manager</guimenuitem>.
 	</para>
 	 <para>
-		Let's see how we can install Opera (an alternative to the Firefox Web browser):
+		Mari kita lihat bagaimana kita dapat menginstal Opera (sebuah alternatif untuk browser Web Firefox):
 	</para>
 	 <itemizedlist>
 		<listitem>
