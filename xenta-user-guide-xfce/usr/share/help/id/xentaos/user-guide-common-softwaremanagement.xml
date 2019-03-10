@@ -58,7 +58,7 @@
 		Perangkat lunak sekarang bergerak ke aliran sungai ke pengelola paket, yang merupakan sukarelawan atau karyawan yang dibayar yang bekerja untuk distribusi Linux. Merupakan tanggung jawab mereka untuk mengkompilasi kode sumber untuk perangkat lunak, mengujinya pada distribusi untuk memastikan bahwa itu berfungsi, menyelesaikan masalah yang mereka hadapi dan akhirnya mengemas perangkat lunak yang dikompilasi (mis., Dapat dibaca mesin) dalam format yang nyaman. Paket ini berisi program yang dapat dieksekusi, file konfigurasinya, dan instruksi yang diperlukan perangkat lunak manajemen paket untuk menginstalnya dengan sukses. Perhatikan bahwa biasanya tidak akan berisi pustaka statis, karena tidak perlu - pustaka disediakan oleh paket lain, dan karenanya dikenal sebagai pustaka bersama. Perangkat lunak manajemen paket Anda akan tahu apakah suatu paket tertentu memerlukan paket lain untuk diinstal terlebih dahulu (seperti perpustakaan bersama), karena, seperti yang Anda ingat, pustaka data dan paket terkait yang diperlukan untuk perangkat lunak untuk bekerja dinyatakan lebih jauh ke hulu dan bahwa informasi termasuk dalam paket. Instruksi cukup rinci bahwa bahkan versi spesifik dari paket lain dapat diminta untuk memastikan interoperabilitas. Paket yang sudah selesai kemudian diunggah ke server file khusus, yang disebut repositori perangkat lunak.
 	</para>
 	 <para>
-		It is from that single location that you are able to download and install the software you need. You will know that the location is bona fide, because it is signed with a certificate that your package manager will check. You will also know that each individual package that you install is secure, because each package is itself signed by a GPG key, which your package manager will also check. Your package manager will even run an MD5 sum on each package to make sure that nothing went wrong when it was downloading, just like we did before with the LiveDVD iso. Notice how it's doing all of this for you. You're just sitting back, sipping a martini, and chatting in #linuxmint on xchat. The package manager has downloaded the packages you have selected, it will follow, to the letter (computers are fastidious in following instructions), the instructions in the package to perfectly install your software, and all of its dependencies, in the right order. There is no space for human error – if the package worked on the maintainer's computer, then it ought to on yours because the package manager will follow exactly the same procedure.
+		Dari lokasi tunggal itulah Anda dapat mengunduh dan menginstal perangkat lunak yang Anda butuhkan. Anda akan tahu bahwa lokasi itu bonafid, karena ditandatangani dengan sertifikat yang akan diperiksa oleh manajer paket Anda. Anda juga akan tahu bahwa setiap paket yang Anda instal aman, karena setiap paket itu sendiri ditandatangani oleh kunci GPG, yang juga akan diperiksa oleh manajer paket Anda. Pengelola paket Anda bahkan akan menjalankan jumlah MD5 pada setiap paket untuk memastikan bahwa tidak ada yang salah ketika mengunduh, seperti yang kami lakukan sebelumnya dengan iso LiveDVD. Perhatikan bagaimana ia melakukan semua ini untuk Anda. Anda hanya duduk santai, menyeruput martini, dan mengobrol di #linuxmint di xchat. Manajer paket telah mengunduh paket yang telah Anda pilih, itu akan mengikuti, ke surat (komputer cepat dalam mengikuti instruksi), instruksi dalam paket untuk menginstal perangkat lunak Anda dengan sempurna, dan semua dependensinya, dalam urutan yang benar. Tidak ada ruang untuk kesalahan manusia - jika paket bekerja pada komputer pengelola, maka itu harus ada pada Anda karena manajer paket akan mengikuti prosedur yang persis sama.
 	</para>
 	 <para>
 		Ketika tiba saatnya memeriksa pembaruan perangkat lunak, manajer paket Anda akan secara otomatis membandingkan versi perangkat lunak yang Anda miliki dengan apa saja yang tersedia di repositori, dan melakukan semua pekerjaan yang diperlukan untuk menjaga sistem Anda berjalan dengan lancar dan aman. Jadi, jika versi 2.4 dari BestSoft diunggah ke repositori, dan Anda memiliki versi 2.3, manajer paket akan membandingkan nomor-nomor versi itu, dan menawarkan untuk menginstal versi terbaru, berhati-hati, tentu saja, dari semua dependensi untuk versi yang lebih baru perangkat lunak.
@@ -216,38 +216,38 @@
 	 <itemizedlist>
 		<listitem>
 			<para>
-				Click on the <guibutton>Search</guibutton> button and type <wordasword>opera</wordasword>.
+				Silahkan klik pada menu <guibutton>Pencarian</guibutton> dan silahkan ketik <wordasword>opera</wordasword>.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Go through the list of packages and find the one corresponding to the Opera Web Browser.
+				Buka daftar paket dan temukan yang sesuai dengan Opera Web Browser.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Tick the box and select <guimenuitem>Mark for Installation</guimenuitem>.
+				Centang kotaknya dan pilih <guimenuitem>Tandai untuk Instalasi</guimenuitem>.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				Click on the <guibutton>Apply</guibutton> button.
+				Silahkan klik pada tombol<guibutton>Menerapkan</guibutton>.
 			</para>
 		</listitem>
 
 	</itemizedlist>
-	 </sect2> <sect2> <title>Using APT</title>
+	 </sect2> <sect2> <title>Menggunakan APT</title>
 	 <para>
-		APT is by far the most powerful package management tool in Xenta OS. Yet it's extremely simple to use.
+		Sejauh ini APT adalah alat manajemen paket yang paling kuat di Xenta OS. Dan, Ya! Sangat mudah digunakan.
 	</para>
 	 <para>
-		It's a command though, not a program with a graphical interface. If you're starting with Linux you'll probably prefer the Software Manager or Synaptic at first. As time goes on you'll likely enjoy things to be faster and more efficient.
+		Ini perintah, bukan program dengan grafis antarmuka. Jika Anda memulai dengan Linux, Anda mungkin lebih memilih Manajer Perangkat Lunak atau Synaptic pada awalnya. Seiring berjalannya waktu, Anda mungkin akan menikmati hal-hal yang lebih cepat dan lebih efisien.
 	</para>
 	 <para>
-		Now let's see how we could have installed Opera using the APT command line tool.
+		Sekarang mari kita lihat bagaimana kita bisa menginstal Opera menggunakan alat baris perintah APT.
 	</para>
 	 <para>
-		Open the <guimenu>Menu</guimenu> and select <guimenuitem>Terminal</guimenuitem>. Then type the following command:
+		Silahkan buka <guimenu>Menu</guimenu> dan pilih <guimenuitem>Terminal</guimenuitem>. Kemudian tuliskan perintah berikut ini:
 	</para>
 	 
 <screen>
@@ -255,49 +255,48 @@
 </screen>
 	 <note>
 		<para>
-			Make sure Synaptic is closed before using APT. Synaptic is using APT in the background so both can't run at the same time. The same goes for the Software Manager.
+			Pastikan Synaptic telah ditutup sebelum menggunakan APT. Aplikasi Synaptic menggunakan APT di latar belakang sehingga keduanya tidak dapat berjalan secara bersamaan. Hal yang sama berlaku untuk Manajer Perangkat Lunak.
 		</para>
 	</note>
-	 </sect2> </sect1> <sect1 id="software-removal"> <title>Removing software</title>
+	 </sect2> </sect1> <sect1 id="software-removal"> <title>Menghapus Perangkat Lunak</title>
 	 <para>
 	</para>
-	 <sect2> <title>Using the Software Manager</title>
+	 <sect2> <title>Menggunakan Manajer Perangkat Lunak</title>
 	 <para>
-		You can use the Software Manager to remove software. Simply find the software you want to remove and click on <guibutton>Remove</guibutton>.
+		Anda dapat menggunakan Manajer Perangkat Lunak untuk menghapus perangkat lunak. Cukup temukan perangkat lunak yang ingin Anda hapuskan dan klik <guibutton>Hapus</guibutton>.
 	</para>
-	 </sect2> <sect2> <title>Using Synaptic</title>
+	 </sect2> <sect2> <title>Menggunakan Synaptic</title>
 	 <para>
-		With Synaptic, you can remove packages by clicking on them and by selecting <guimenuitem>Mark for Removal</guimenuitem>. Changes are applied after you click on the <guibutton>Apply</guibutton> button.
+		Dengan Synaptic, Anda dapat menghapus paket dengan mengkliknya dan dengan memilih <guimenuitem>Tandai untuk Dihapus</guimenuitem>. Perubahan diterapkan setelah Anda mengeklik tombol <guibutton>Terapkan</guibutton>.
 	</para>
-	 </sect2> <sect2> <title>Using APT</title>
+	 </sect2> <sect2> <title>Menggunakan APT</title>
 	 <para>
-		With APT it's even simpler... say you want to remove Opera, open a <guimenuitem>Terminal</guimenuitem> from the <guimenu>Menu</guimenu> and type:
+		Dengan APT bahkan lebih mudah... katakanlah Anda ingin menghapus Opera, buka <guimenuitem>Terminal</guimenuitem> dari <guimenu>Menu</guimenu> dan ketik:
 	</para>
 	 
 <screen>
                     <command>apt remove <replaceable>opera</replaceable></command>
 </screen>
-	 </sect2> </sect1> <sect1 id="software-updates"> <title>Updating software</title>
+	 </sect2> </sect1> <sect1 id="software-updates"> <title>Memperbarui Perangkat Lunak</title>
 	 <para>
-		If a new version of any package installed on your computer is made available you can upgrade to it. It may be a security update for some component of the operating system, it may be an optimization in one specific library or it may even be a newer version of Firefox. Basically, your system is made of packages and any part of it can be updated by updating some of those packages. This means replacing the current package with a newer version.
+		Jika versi baru dari paket apa pun yang diinstal pada komputer Anda tersedia, Anda dapat meningkatkannya. Ini mungkin pembaruan keamanan untuk beberapa komponen sistem operasi, mungkin merupakan pengoptimalan di satu perpustakaan tertentu atau bahkan mungkin versi Firefox yang lebih baru. Pada dasarnya, sistem Anda terbuat dari paket dan setiap bagiannya dapat diperbarui dengan memperbarui beberapa paket tersebut. Ini berarti mengganti paket saat ini dengan versi yang lebih baru
 	</para>
 	 <para>
-		There are many ways to do this but only one of them is recommended.
+		Ada banyak cara untuk melakukan ini tetapi hanya satu yang direkomendasikan.
 	</para>
 	 <para>
-		You could use APT to upgrade all your packages with one simple command (<command>apt upgrade</command>) but we recommend you don't do so. The reason is that it doesn't make any distinctions in selecting which updates to apply and assumes that you want all of them.
+		Anda bisa menggunakan APT untuk memutakhirkan semua paket Anda dengan satu perintah sederhana (<command>apt upgrade</command>) tetapi kami sarankan Anda tidak melakukannya. Alasannya adalah karena ia tidak membuat perbedaan dalam memilih pembaruan mana yang akan diterapkan dan menganggap Anda menginginkan semuanya.
+	 <para>
+		Beberapa bagian dari sistem aman untuk diperbarui dan beberapa lainnya tidak. Sebagai contoh, dengan memperbarui kernel Anda (bagian yang bertanggung jawab antara lain untuk pengenalan perangkat keras) Anda dapat merusak dukungan suara Anda, dukungan kartu nirkabel Anda atau bahkan beberapa aplikasi (seperti VMWare dan Virtualbox) yang terkait erat dengan kernel.
 	</para>
 	 <para>
-		Some parts of the system are safe to update and some others aren't. For instance, by updating your kernel (the part which is responsible among other things for hardware recognition) you might break your sound support, your wireless card support or even some applications (such as VMWare and Virtualbox) which are closely linked to the kernel.
+		Xenta OS hadir dengan alat yang disebut Update Manager. Ini memberikan lebih banyak informasi tentang pembaruan dan memungkinkan Anda menentukan seberapa aman pembaruan harus sebelum Anda ingin menerapkannya. Itu terlihat seperti perisai dan duduk di sudut kanan bawah layar Anda.
 	</para>
 	 <para>
-		Xenta OS comes with a tool called the Update Manager. It gives more information about updates and lets you define how safe an update must be before you want to apply it. It looks like a shield and sits on the bottom-right corner of your screen.
-	</para>
-	 <para>
-		If you place your mouse pointer on top of it, it will tell you either that your system is up to date or, if it isn't, how many updates are available.
+		Jika Anda meletakkan penunjuk tetikus di atasnya, itu akan memberi tahu Anda apakah sistem Anda mutakhir atau, jika tidak, berapa banyak pembaruan yang tersedia.
 	</para>
 	 <figure id="software-list">
-		<title>The list of available updates</title>
+		<title>Daftar Pembaruan yang Tersedia</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_list.png" format="PNG" width="100%" />
@@ -307,19 +306,19 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		If you click on the lock icon, the Update Manager opens and shows you the updates that are available. The interface is very easy to use. For each package update you can read the description, the changelog (this is where developers explain their changes when they modify the package), and eventually if Xenta OS assigned warnings or extra information about the updates. You can also see which version is currently installed on your computer and which version is available for you to update to. Also you have a symbol showing if it's a package update or a security update.
+		Jika Anda mengklik ikon kunci, Pembaruan Manajer terbuka dan menunjukkan kepada Anda pembaruan yang tersedia. Antarmuka sangat mudah digunakan. Untuk setiap pembaruan paket, Anda dapat membaca deskripsi, changelog (ini adalah tempat pengembang menjelaskan perubahannya saat mereka memodifikasi paket), dan akhirnya jika Xenta OS memberikan peringatan atau informasi tambahan tentang pembaruan. Anda juga dapat melihat versi mana yang saat ini diinstal pada komputer Anda dan versi mana yang tersedia untuk Anda perbarui. Anda juga memiliki simbol yang menunjukkan apakah itu pembaruan paket atau pembaruan keamanan.
 	</para>
 	 <para>
-		Finally, you can see the stability level assigned to the package update. Each package update brings improvements or fixes security issues but that doesn't mean they're risk-free and can't introduce new bugs. The stability level is assigned to each package by Xenta OS and gives you an indication of how safe it is for you to apply an update.
+		Terakhir, Anda dapat melihat tingkat stabilitas yang ditetapkan untuk pembaruan paket. Setiap pembaruan paket membawa perbaikan atau perbaikan masalah keamanan tetapi itu tidak berarti mereka bebas risiko dan tidak dapat memperkenalkan bug baru. Tingkat stabilitas ditetapkan untuk setiap paket oleh Xenta OS dan memberi Anda indikasi betapa amannya bagi Anda untuk menerapkan pembaruan.
 	</para>
 	 <para>
-		Of course you can click on the columns to sort by stability level, status, package name or by version. You can select all updates or unselect all of them by using the <guibutton>Clear</guibutton> and <guibutton>Select All</guibutton> buttons.
+		Tentu saja Anda dapat mengklik kolom untuk mengurutkan berdasarkan tingkat stabilitas, status, nama paket atau versi. Anda dapat memilih semua pembaruan atau membatalkan pilihan semuanya dengan menggunakan tombol <guibutton>Bersihkan</guibutton> dan tombol <guibutton>Pilih Semua</guibutton>.
 	</para>
 	 <para>
-		Level 1 and Level 2 updates are risk-free and you should always apply them. Level 3 updates should be safe but, although we recommend you take them, make sure you look over them on the list of updates. If you experience a problem with a particular Level 3 update, tell the Xenta OS development team so they can take measures to make that update a Level 4 or a Level 5 so as to warn or even discourage others against applying it.
+		Pembaruan Level 1 dan Level 2 bebas risiko dan Anda harus selalu menerapkannya. Pembaruan level 3 harus aman tetapi, meskipun kami menyarankan Anda membawanya, pastikan Anda memeriksa pembaruan itu di daftar. Jika Anda mengalami masalah dengan pembaruan Level 3 tertentu, beri tahu tim pengembangan Xenta OS sehingga mereka dapat mengambil tindakan untuk membuat pembaruan tersebut menjadi Level 4 atau Level 5 sehingga dapat memperingatkan atau bahkan membuat orang lain enggan menerapkannya.
 	</para>
 	 <figure id="software-prefs">
-		<title>The Update Manager preferences</title>
+		<title>Preferensi Pembaruan Manajer</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_prefs.png" format="PNG" width="100%" />
@@ -329,56 +328,57 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		If you click on the <guibutton>Preferences</guibutton> button you should see the screen above. By default the Update Manager tells you about Level 1, 2 and 3 updates. You can decide to make Level 4 and 5 <guilabel>visible</guilabel>. This will make more updates appear in the list. If you want to you can even make Level 4 and 5 updates <guilabel>safe</guilabel> (although this is not recommended). This will cause them to be selected by default within the Update Manager.
+		Jika Anda mengklik tombol <guibutton>Preferensi</guibutton>, Anda akan melihat layar di atas. Secara default, Update Manager memberi tahu Anda tentang pembaruan Level 1, 2 dan 3. Anda dapat memutuskan untuk membuat Level 4 dan 5 <guilabel>terlihat</guilabel>. Ini akan membuat lebih banyak pembaruan muncul dalam daftar. Jika mau, Anda bahkan dapat membuat pembaruan Level 4 dan 5 <guilabel>aman</guilabel> (meskipun ini tidak disarankan). Ini akan menyebabkan mereka dipilih secara default di dalam Update Manager.
 	</para>
 	 <para>
-		The Update Manager only counts 'safe' updates. So when it tells you your system is up to date, it means there are no updates available assigned with a level that you defined as being 'safe'.
+		Update Manager hanya menghitung pembaruan 'aman'. Jadi ketika ia memberi tahu Anda bahwa sistem Anda mutakhir, itu berarti tidak ada pembaruan yang tersedia dengan tingkat yang Anda tentukan sebagai 'aman'.
 	</para>
 	 <para>
-		The Update Manager only shows 'visible' updates in the list.
+		Manajer Pembaruan hanya menampilkan pembaruan 'terlihat' dalam daftar.
 	</para>
 	 <para>
-		For example, if you made all levels 'visible' and only Level 1 and 2 'safe', you would see a lot of updates in the list, but the Update Manager would probably tell you that your system was up to date.
+		Misalnya, jika Anda membuat semua level 'terlihat' dan hanya Level 1 dan 2 'aman', Anda akan melihat banyak pembaruan dalam daftar, tetapi Manajer Pembaruan mungkin akan memberi tahu Anda bahwa sistem Anda mutakhir.
 	</para>
 	 <para>
-		The <guilabel>Auto-Refresh</guilabel> tab allows you to define how often the Update Manager checks for updates.
+		Tab <guilabel>Auto-Refresh</guilabel> memungkinkan Anda untuk menentukan seberapa sering Update Manager memeriksa pembaruan.
+
 	</para>
 	 <para>
-		The <guilabel>Update Method</guilabel> tab lets you define how the Update Manager checks for new updates.
+		Tab <guilabel>Metode Pembaruan</guilabel> memungkinkan Anda menentukan bagaimana Manajer Pembaruan memeriksa pembaruan baru.
 	</para>
 	 <para>
-		The <guilabel>Include dist-upgrade packages</guilabel> option allows you to define whether the Update Manager should install new dependencies or not. For instance if package A version 1 was installed on your computer and package A version 2 became available, but version 2 had a new dependency on package B which isn't installed on your computer... what would happen?
+		Opsi <guilabel>Sertakan paket dist-upgrade</guilabel> memungkinkan Anda untuk menentukan apakah Manajer Pembaruan harus menginstal dependensi baru atau tidak. Sebagai contoh jika paket A versi 1 diinstal pada komputer Anda dan paket A versi 2 tersedia, tetapi versi 2 memiliki ketergantungan baru pada paket B yang tidak diinstal pada komputer Anda ... apa yang akan terjadi?
 	</para>
 	 <itemizedlist>
 		<listitem>
 			<para>
-				If you left this checkbox unchecked, version 2 would not appear as an update in the list of updates.
+				Jika Anda meninggalkan kotak centang ini menjadi tidak dicentang, versi 2 tidak akan muncul sebagai pembaruan dalam daftar pembaruan.
 			</para>
 		</listitem>
 		 <listitem>
 			<para>
-				If you checked this checkbox, it would, and if selected it would install package B as a dependency.
+				Jika Anda mencentang kotak ini, itu akan, dan jika dipilih akan menginstal paket B sebagai ketergantungan.
 			</para>
 		</listitem>
 
 	</itemizedlist>
 	 <para>
-		Be careful with this option as dependency can install new packages on your behalf but they can also sometimes remove packages you already have installed.
+		Hati-hati dengan opsi ini karena ketergantungan dapat menginstal paket baru atas nama Anda tetapi mereka juga terkadang dapat menghapus paket yang sudah Anda instal.
 	</para>
 	 <para>
-		In the <guilabel>Ignored packages</guilabel> tab you can define packages for which you do not want to receive updates. '?' and '*' wildcard characters are supported.
+		Di tab <guilabel>Paket yang diabaikan</guilabel> Anda dapat menentukan paket yang tidak ingin Anda terima pembaruannya. '?' dan karakter wildcard '*' didukung.
 	</para>
 	 <para>
-		The <guilabel>Proxy</guilabel> tab lets you define proxy settings.
+		Tab <guilabel>Proxy</guilabel> memungkinkan Anda menentukan pengaturan proxy.
 	</para>
 	 <para>
-		The last tab lets you change the icons used by the Update Manager in the system tray.
+		Tab terakhir memungkinkan Anda mengubah ikon yang digunakan oleh Manajer Pembaruan di baki sistem.
 	</para>
 	 <para>
-		If you get errors with the Update Manager, you can check the logs. Right click on the lock icon in the system tray and select <guilabel>Information</guilabel>. The following screen appears:
+		Jika Anda mendapatkan kesalahan dengan Manajer Pembaruan, Anda dapat memeriksa log. Klik kanan pada ikon kunci di baki sistem dan pilih <guilabel>Informasi</guilabel>. Seperti Layar berikut ini muncul:
 	</para>
 	 <figure id="software-logs">
-		<title>The Update Manager logs</title>
+		<title>Log Pembaruan Manajer</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_logs.png" format="PNG" width="100%" />
@@ -388,13 +388,13 @@
 		 </screenshot>
 	</figure>
 	 <para>
-		In this screen you can see the process ID of the Update Manager and the content of its log file.
+		Di layar ini Anda dapat melihat ID proses dari Manajer Pembaruan dan konten file log-nya.
 	</para>
 	 <para>
-		You can also review the updates that were applied on your system by clicking on the <guimenu>View</guimenu> menu and by selecting <guimenuitem>History of Updates</guimenuitem>.
+		Anda juga dapat meninjau pembaruan yang diterapkan pada sistem Anda dengan mengklik menu <guimenu>View</guimenu> dan dengan memilih <guimenuitem>Riwayat Pembaruan</guimenuitem>.
 	</para>
 	 <figure id="software-history">
-		<title>The history of updates</title>
+		<title>Sejarah Pembaruan</title>
 		 <screenshot> <mediaobject>
 			<imageobject>
 				<imagedata fileref="images/softwaremanagement_history.png" format="PNG" width="100%" />
